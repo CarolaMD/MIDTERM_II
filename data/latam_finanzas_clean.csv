@@ -1,0 +1,501 @@
+id,edad,pais,industria,ocupacion,ingreso_mensual_usd,ahorro_mensual_usd,deuda_total_usd,gasto_vivienda_usd,gasto_alimentacion_usd,gasto_transporte_usd,gasto_entretenimiento_usd,gasto_educacion_usd,gasto_salud_usd,satisfaccion_financiera,horas_herramientas_ia_semana,meta_financiera,tiene_tarjeta_credito,tiene_cuenta_ahorro,tiene_deuda,ahorro_negativo
+1,23.0,Brasil,Gobierno,Diseñador/a,1734.02,255.59,,577.52,227.58,119.1,101.44,46.43,134.93,6.0,0.0,Comprar casa,Sí,No,Sí,False
+2,36.0,Perú,Finanzas,Analista,569.59,-158.25,2677.16,265.6,43.8,61.37,80.97,0.0,43.2,5.0,3.0,Ahorrar para retiro,Sí,No,No,True
+3,34.0,Brasil,Comercio,Emprendedor/a,773.07,255.59,,304.94,30.0,10.0,83.37,0.0,0.0,2.0,3.0,Viajar,Sí,No,Sí,False
+4,30.0,Colombia,Tecnología,Gerente,3290.47,255.59,,961.43,598.73,261.68,215.27,185.08,206.91,3.0,3.0,Iniciar negocio,No,Sí,No,False
+5,30.0,Brasil,Salud,Diseñador/a,898.8,622.34,888.21,50.0,184.36,59.38,91.03,114.42,0.0,8.0,5.0,Iniciar negocio,Sí,Sí,No,False
+6,38.0,Brasil,Salud,Docente,1032.25,969.04,,255.02,201.03,49.84,91.95,40.57,115.65,7.0,1.0,Pagar deudas,Sí,No,No,False
+7,23.0,México,Gobierno,Contador/a,3085.84,456.52,,975.72,520.94,290.13,167.57,78.02,162.29,8.0,3.0,Iniciar negocio,No,Sí,No,False
+8,31.0,Argentina,Tecnología,Contador/a,3833.55,101.31,2449.6,1019.21,609.64,293.63,176.26,126.72,85.67,7.0,3.0,Comprar casa,Sí,No,Sí,False
+9,25.0,Argentina,Tecnología,Analista,979.9,-107.25,4043.52,369.72,132.33,71.29,75.61,72.67,35.37,4.0,3.0,Fondo de emergencia,No,No,No,True
+10,23.0,Argentina,Educación,Docente,1784.805,254.58,2796.02,571.68,221.51,108.29,114.38,187.76,103.27,7.0,2.0,Ahorrar para retiro,No,Sí,No,False
+11,32.0,Perú,Tecnología,Analista,2039.09,130.29,,626.95,280.21,86.45,165.96,125.58,92.47,6.0,5.0,Viajar,Sí,Sí,Sí,False
+12,40.0,Perú,Manufactura,Médico/a,3010.09,-156.03,,535.37,609.6,195.53,143.15,127.29,179.1,2.0,1.0,Fondo de emergencia,No,No,Sí,True
+13,35.0,Colombia,Tecnología,Gerente,1109.2,1069.5,3804.9,179.39,199.73,127.18,30.29,101.43,21.46,8.0,1.0,Ahorrar para retiro,No,Sí,Sí,False
+14,36.0,Chile,Gobierno,Gerente,1784.805,964.07,6689.63,714.84,216.42,45.87,116.09,67.05,29.18,7.0,4.0,Pagar deudas,Sí,Sí,Sí,False
+15,35.0,Brasil,Salud,Gerente,2344.14,255.59,,637.66,379.55,156.88,137.8,94.51,114.35,7.0,1.0,Iniciar negocio,Sí,Sí,Sí,False
+16,36.0,Argentina,Gobierno,Gerente,2104.34,-118.34,,393.2,255.0,152.36,50.83,47.71,106.48,8.0,3.0,Fondo de emergencia,Sí,No,Sí,True
+17,31.0,Brasil,Tecnología,Docente,1536.69,592.01,,609.24,320.77,192.68,107.21,161.34,62.9,5.0,2.0,Ahorrar para retiro,Sí,Sí,No,False
+18,24.0,Chile,Finanzas,Gerente,1706.32,505.85,,513.5,216.28,167.25,28.28,0.0,134.41,7.0,2.0,Viajar,No,Sí,Sí,False
+19,37.0,Brasil,Salud,Analista,837.57,427.02,,383.86,155.7,44.72,12.44,89.75,7.87,5.0,3.0,Ahorrar para retiro,Sí,Sí,Sí,False
+20,30.0,Brasil,Tecnología,Contador/a,1633.28,749.87,3501.85,523.22,308.95,182.84,152.06,53.84,94.19,9.0,3.0,Viajar,No,No,Sí,False
+21,31.0,México,Tecnología,Diseñador/a,1613.53,504.15,,539.09,265.12,99.46,169.81,56.06,83.4,7.0,5.0,Pagar deudas,No,Sí,No,False
+22,29.0,Perú,Finanzas,Ingeniero/a,1962.52,546.01,,632.32,300.05,197.37,69.12,199.66,35.86,7.0,3.0,Comprar casa,No,Sí,Sí,False
+23,25.0,Colombia,Manufactura,Médico/a,1784.805,255.59,5028.37,507.08,212.34,58.55,71.5,27.72,17.8,5.0,4.0,Fondo de emergencia,Sí,Sí,Sí,False
+24,39.0,Perú,Manufactura,Diseñador/a,1784.805,386.32,4092.13,912.32,316.13,213.34,129.51,65.7,106.98,5.0,3.0,Viajar,Sí,No,No,False
+25,36.0,Perú,Tecnología,Contador/a,2508.9,255.59,,869.19,341.73,184.47,221.78,117.62,204.69,6.0,8.0,Pagar deudas,Sí,Sí,Sí,False
+26,34.0,Colombia,Tecnología,Analista,1908.8,255.59,,383.0,259.35,111.56,94.81,120.27,118.61,9.0,2.0,Comprar casa,Sí,Sí,Sí,False
+27,29.0,México,Educación,Diseñador/a,1784.805,27.52,380.3,667.47,395.71,155.01,103.7,75.8,33.29,6.0,1.0,Comprar casa,No,Sí,No,False
+28,37.0,Argentina,Finanzas,Gerente,1837.21,-261.94,7534.5,688.14,269.07,158.07,172.18,0.0,0.0,3.0,7.0,Pagar deudas,Sí,No,No,True
+29,32.0,Colombia,Manufactura,Analista,1800.06,922.73,,684.34,222.86,124.21,93.01,38.06,119.33,8.0,2.0,Viajar,No,Sí,No,False
+30,30.0,Chile,Finanzas,Emprendedor/a,1294.91,255.59,1763.07,337.28,163.26,125.75,106.58,141.63,60.9,10.0,6.0,Ahorrar para retiro,Sí,Sí,No,False
+31,30.0,México,Finanzas,Diseñador/a,2021.55,255.59,410.37,746.26,369.25,138.4,62.21,105.56,146.73,8.0,4.0,Iniciar negocio,Sí,No,Sí,False
+32,26.0,México,Tecnología,Contador/a,1731.9,352.09,,630.9,300.32,163.37,97.06,113.66,51.37,9.0,3.0,Pagar deudas,No,No,No,False
+33,23.0,Argentina,Finanzas,Contador/a,3265.22,790.25,,1288.27,523.4,278.91,129.53,147.58,177.27,6.0,1.0,Comprar casa,No,No,Sí,False
+34,32.0,Perú,Manufactura,Gerente,2901.35,255.59,9546.96,780.4,419.75,229.67,131.86,105.5,178.91,6.0,5.0,Viajar,No,Sí,Sí,False
+35,38.0,Colombia,Salud,Contador/a,2070.09,331.12,3142.67,560.14,344.92,147.95,157.77,204.16,85.61,7.0,1.0,Ahorrar para retiro,No,No,No,False
+36,23.0,Colombia,Educación,Contador/a,1265.86,-187.39,7340.21,343.02,151.27,107.33,73.96,52.0,46.25,6.0,5.0,Comprar casa,Sí,Sí,Sí,True
+37,38.0,México,Tecnología,Ingeniero/a,1021.31,408.8,,247.57,137.62,103.71,48.51,24.46,52.08,5.0,3.0,Comprar casa,Sí,No,Sí,False
+38,37.0,Colombia,Salud,Docente,1784.805,274.15,,683.34,453.26,293.18,128.08,197.46,153.4,5.0,2.0,Ahorrar para retiro,No,Sí,No,False
+39,27.0,Colombia,Salud,Ingeniero/a,1983.92,-271.06,5502.0,263.65,350.04,196.29,110.21,55.85,98.62,6.0,0.0,Viajar,Sí,Sí,Sí,True
+40,34.0,Colombia,Comercio,Gerente,2136.1,229.52,9310.6,588.67,261.5,209.93,140.21,71.12,145.76,8.0,4.0,Fondo de emergencia,No,No,No,False
+41,25.0,Argentina,Salud,Diseñador/a,578.79,218.11,,217.96,35.49,169.84,74.04,29.55,10.46,8.0,2.0,Ahorrar para retiro,No,No,Sí,False
+42,36.0,Colombia,Tecnología,Gerente,2449.21,255.59,884.19,675.58,373.9,216.58,41.95,122.48,69.32,10.0,3.0,Comprar casa,No,Sí,No,False
+43,35.0,Perú,Manufactura,Ingeniero/a,2118.09,255.59,8134.09,867.67,421.28,188.83,93.81,121.48,184.98,7.0,1.0,Ahorrar para retiro,Sí,Sí,Sí,False
+44,28.0,Argentina,Tecnología,Docente,1022.7,254.58,854.65,308.42,38.47,109.98,67.73,176.64,26.95,6.0,1.0,Ahorrar para retiro,Sí,No,Sí,False
+45,23.0,Perú,Comercio,Gerente,1469.93,349.51,,595.9,237.19,77.24,84.24,93.67,50.76,8.0,0.0,Ahorrar para retiro,Sí,No,Sí,False
+46,40.0,Chile,Finanzas,Ingeniero/a,1984.6,267.68,1571.43,626.75,215.13,141.01,135.21,0.0,96.6,7.0,3.0,Ahorrar para retiro,Sí,Sí,No,False
+47,30.0,Chile,Manufactura,Ingeniero/a,1836.73,168.83,5100.6,650.19,237.45,126.69,120.91,111.41,94.52,4.0,1.0,Fondo de emergencia,No,No,Sí,False
+48,38.0,Chile,Educación,Contador/a,1595.48,-182.97,13510.74,512.15,217.46,153.54,83.53,82.05,64.31,3.0,2.0,Pagar deudas,Sí,No,No,True
+49,34.0,Brasil,Salud,Docente,1727.56,189.58,6671.09,682.52,233.9,131.24,82.58,88.99,85.68,7.0,1.0,Viajar,No,Sí,Sí,False
+50,36.0,Colombia,Educación,Contador/a,1623.62,-48.44,,493.8,211.52,135.42,87.6,95.94,79.59,5.0,3.0,Iniciar negocio,Sí,Sí,No,True
+51,36.0,Brasil,Tecnología,Docente,1906.79,-250.13,,631.57,286.45,196.04,160.36,93.62,102.33,5.0,3.0,Comprar casa,No,Sí,No,True
+52,25.0,Colombia,Tecnología,Médico/a,2830.04,454.49,2687.41,892.97,392.39,260.93,140.52,138.35,47.2,8.0,2.0,Ahorrar para retiro,Sí,Sí,No,False
+53,28.0,México,Manufactura,Médico/a,300.0,255.59,16951.7,55.41,30.0,17.53,15.49,51.78,90.24,8.0,2.0,Pagar deudas,No,Sí,Sí,False
+54,30.0,Perú,Gobierno,Emprendedor/a,1634.2,-464.68,2221.93,538.86,291.92,103.94,105.39,49.19,75.82,6.0,2.0,Pagar deudas,Sí,Sí,No,True
+55,31.0,Brasil,Comercio,Emprendedor/a,1923.56,200.93,3824.24,845.19,333.71,199.3,177.83,39.32,119.4,3.0,4.0,Comprar casa,No,Sí,No,False
+56,22.0,México,Finanzas,Médico/a,2007.2,648.28,,569.71,351.67,191.53,108.42,281.79,45.24,8.0,3.0,Viajar,Sí,Sí,No,False
+57,32.0,Chile,Finanzas,Gerente,1539.66,673.69,5411.53,512.23,138.5,58.92,130.73,34.03,58.14,8.0,2.0,Ahorrar para retiro,Sí,Sí,Sí,False
+58,24.0,Chile,Finanzas,Contador/a,570.29,660.33,,322.02,103.48,33.1,83.5,34.52,1.62,5.0,4.0,Ahorrar para retiro,Sí,Sí,No,False
+59,36.0,Colombia,Manufactura,Contador/a,2029.6,265.57,2734.93,745.71,345.0,168.99,119.23,11.74,160.27,5.0,2.0,Viajar,Sí,Sí,No,False
+60,34.0,Chile,Educación,Analista,3009.15,255.59,3399.58,904.15,389.5,271.89,172.12,157.45,127.02,4.0,1.0,Fondo de emergencia,No,Sí,No,False
+61,39.0,Perú,Comercio,Docente,726.3,-183.48,7878.92,50.0,109.5,94.51,30.42,0.0,66.64,5.0,2.0,Fondo de emergencia,Sí,No,Sí,True
+62,36.0,Chile,Gobierno,Contador/a,2404.68,387.84,7613.9,783.41,353.73,203.73,134.05,93.69,94.22,9.0,2.0,Fondo de emergencia,No,No,No,False
+63,28.0,Chile,Finanzas,Contador/a,1570.03,401.71,5505.51,204.67,346.03,149.01,128.37,141.21,60.4,10.0,2.0,Pagar deudas,No,Sí,No,False
+64,40.0,Brasil,Educación,Médico/a,1757.07,764.93,,703.51,379.03,143.13,114.66,116.17,78.03,6.0,3.0,Comprar casa,Sí,No,Sí,False
+65,29.0,Colombia,Salud,Docente,1062.97,689.99,8094.45,339.23,59.58,58.08,73.19,87.25,104.5,8.0,2.0,Ahorrar para retiro,Sí,No,No,False
+66,28.0,Chile,Gobierno,Emprendedor/a,1565.88,255.59,,589.72,384.52,114.82,48.94,0.0,2.7,7.0,2.0,Pagar deudas,No,Sí,No,False
+67,39.0,Colombia,Finanzas,Emprendedor/a,2710.03,-247.68,836.4,704.76,351.59,217.56,123.9,245.72,82.87,5.0,1.0,Ahorrar para retiro,No,Sí,Sí,True
+68,29.0,Brasil,Tecnología,Médico/a,2207.86,122.36,,476.06,390.02,175.24,218.21,38.88,32.5,6.0,6.0,Ahorrar para retiro,Sí,No,No,False
+69,23.0,Colombia,Finanzas,Diseñador/a,3012.62,336.89,4765.36,935.08,510.12,165.59,173.64,242.34,107.13,6.0,4.0,Comprar casa,No,No,No,False
+70,30.0,Brasil,Educación,Analista,2624.19,255.59,10961.85,783.22,333.89,194.04,126.46,192.5,98.75,8.0,1.0,Ahorrar para retiro,Sí,Sí,Sí,False
+71,37.0,Chile,Gobierno,Diseñador/a,2107.36,18.84,,573.22,345.7,170.84,183.69,140.01,40.79,7.0,0.0,Viajar,Sí,Sí,No,False
+72,31.0,Colombia,Comercio,Docente,3020.75,351.15,,916.38,446.66,230.41,192.52,99.74,121.67,5.0,0.0,Pagar deudas,No,Sí,Sí,False
+73,30.0,Perú,Tecnología,Médico/a,2107.3,48.42,,964.28,349.35,158.71,149.56,114.46,24.78,7.0,6.0,Comprar casa,No,Sí,Sí,False
+74,24.0,Colombia,Salud,Emprendedor/a,2379.59,-1.23,,814.02,370.78,209.89,137.25,90.72,78.26,7.0,5.0,Viajar,Sí,Sí,No,True
+75,35.0,Colombia,Tecnología,Docente,1592.4,374.58,10985.13,603.66,310.64,84.23,82.8,81.36,127.64,7.0,5.0,Fondo de emergencia,No,Sí,No,False
+76,31.0,Argentina,Finanzas,Docente,1846.58,89.2,,655.25,281.51,82.6,104.01,77.34,108.47,7.0,2.0,Pagar deudas,Sí,Sí,No,False
+77,28.0,Perú,Gobierno,Emprendedor/a,1311.8,347.64,13530.71,571.08,186.7,91.02,23.4,0.0,73.09,7.0,4.0,Ahorrar para retiro,No,Sí,No,False
+78,26.0,Argentina,Gobierno,Docente,1784.805,359.28,,725.0,439.67,229.98,146.05,191.94,84.52,7.0,5.0,Ahorrar para retiro,Sí,Sí,Sí,False
+79,32.0,Chile,Tecnología,Analista,975.19,-205.77,1071.84,50.0,181.1,145.52,70.35,43.89,0.0,5.0,2.0,Pagar deudas,Sí,No,No,True
+80,34.0,Chile,Tecnología,Contador/a,2347.65,57.5,,681.66,396.06,219.1,214.88,88.29,71.82,3.0,2.0,Ahorrar para retiro,No,No,Sí,False
+81,39.0,Colombia,Manufactura,Diseñador/a,1666.54,825.11,,597.37,210.11,74.59,103.43,49.71,81.6,7.0,5.0,Fondo de emergencia,Sí,Sí,Sí,False
+82,30.0,Colombia,Finanzas,Docente,2619.87,255.59,,669.58,330.26,200.29,63.83,152.5,165.72,6.0,2.0,Fondo de emergencia,No,No,Sí,False
+83,25.0,Colombia,Salud,Docente,2325.61,-596.66,,676.52,314.78,196.31,135.78,62.66,152.38,6.0,1.0,Pagar deudas,No,No,No,True
+84,37.0,Colombia,Comercio,Diseñador/a,3074.45,-494.74,6052.18,839.32,423.92,253.06,294.05,18.41,178.95,6.0,3.0,Fondo de emergencia,Sí,No,No,True
+85,33.0,Brasil,Comercio,Diseñador/a,2311.54,261.64,16301.26,873.71,393.9,206.5,173.35,140.0,86.07,7.0,3.0,Fondo de emergencia,No,Sí,Sí,False
+86,35.0,Argentina,Comercio,Ingeniero/a,699.57,262.37,9705.08,299.81,163.49,19.28,9.54,66.12,35.96,6.0,3.0,Comprar casa,Sí,Sí,No,False
+87,23.0,Argentina,Manufactura,Diseñador/a,1753.13,202.96,1977.1,604.12,253.66,142.85,128.83,75.68,74.8,5.0,2.0,Pagar deudas,No,Sí,No,False
+88,27.0,Perú,Gobierno,Médico/a,979.59,735.68,8276.19,368.47,232.79,95.18,29.09,0.0,40.93,8.0,2.0,Viajar,Sí,Sí,No,False
+89,36.0,Perú,Manufactura,Docente,1437.2,-819.13,4257.76,426.69,297.69,148.0,32.08,77.2,153.35,5.0,2.0,Pagar deudas,No,No,No,True
+90,37.0,Perú,Comercio,Emprendedor/a,2857.86,408.37,3526.69,881.06,443.28,196.4,157.54,55.02,72.41,5.0,5.0,Pagar deudas,No,No,Sí,False
+91,30.0,Chile,Salud,Emprendedor/a,2246.27,874.58,10522.38,531.66,287.63,165.9,138.44,50.68,102.93,8.0,1.0,Pagar deudas,No,Sí,Sí,False
+92,37.0,Brasil,Tecnología,Médico/a,1310.75,-201.11,1862.96,130.85,291.14,10.0,3.76,20.5,114.01,6.0,5.0,Iniciar negocio,Sí,Sí,No,True
+93,37.0,Brasil,Comercio,Analista,1090.4,98.08,,345.13,159.9,62.37,19.46,105.16,0.0,3.0,0.0,Ahorrar para retiro,Sí,No,No,False
+94,29.0,Colombia,Comercio,Diseñador/a,1784.805,-51.16,,585.76,281.01,124.86,109.79,69.39,65.4,5.0,2.0,Viajar,No,Sí,No,True
+95,39.0,México,Finanzas,Ingeniero/a,948.41,-107.74,,429.63,121.89,35.09,40.58,20.55,26.26,5.0,5.0,Ahorrar para retiro,No,No,Sí,True
+96,27.0,Argentina,Salud,Ingeniero/a,1330.2,119.5,803.44,587.62,146.14,113.04,95.6,183.79,57.58,6.0,5.0,Fondo de emergencia,No,Sí,No,False
+97,26.0,Brasil,Educación,Analista,2018.41,820.99,3903.1,793.92,214.64,159.23,72.52,122.07,37.08,7.0,3.0,Comprar casa,Sí,Sí,Sí,False
+98,34.0,Brasil,Educación,Diseñador/a,2608.72,984.95,8932.06,662.85,429.28,118.33,185.09,150.78,154.25,8.0,1.0,Comprar casa,Sí,Sí,Sí,False
+99,34.0,Perú,Educación,Ingeniero/a,2226.13,115.62,,625.57,286.92,186.71,86.22,89.12,137.96,9.0,2.0,Comprar casa,No,Sí,Sí,False
+100,24.0,Perú,Finanzas,Médico/a,300.0,255.59,,147.64,228.57,10.0,83.71,0.0,35.34,8.0,1.0,Pagar deudas,No,No,Sí,False
+101,37.0,Colombia,Comercio,Contador/a,2013.06,264.23,,907.75,236.79,180.47,52.15,0.0,65.84,7.0,0.0,Viajar,Sí,Sí,Sí,False
+102,25.0,Chile,Comercio,Docente,1850.42,951.48,11227.39,732.74,202.12,96.76,67.32,150.65,95.98,10.0,3.0,Fondo de emergencia,Sí,Sí,No,False
+103,37.0,Colombia,Gobierno,Docente,2089.72,212.68,2530.34,761.24,344.07,168.38,142.08,131.38,68.51,5.0,0.0,Pagar deudas,Sí,Sí,Sí,False
+104,22.0,Chile,Educación,Emprendedor/a,2931.35,302.42,6038.53,832.87,531.46,223.18,242.45,135.82,133.26,9.0,4.0,Ahorrar para retiro,Sí,Sí,Sí,False
+105,37.0,Colombia,Tecnología,Analista,355.73,396.19,3016.77,50.0,57.23,40.58,33.95,9.55,103.93,6.0,3.0,Pagar deudas,No,Sí,Sí,False
+106,36.0,México,Comercio,Diseñador/a,1386.23,1521.54,3808.82,510.54,242.27,115.89,105.69,113.48,73.14,10.0,6.0,Comprar casa,Sí,No,No,False
+107,36.0,Brasil,Tecnología,Diseñador/a,2213.63,590.51,4466.45,532.01,221.43,166.88,133.52,17.4,63.18,8.0,6.0,Pagar deudas,No,No,No,False
+108,34.0,Brasil,Tecnología,Contador/a,692.88,-32.91,5429.58,179.25,63.28,10.0,0.52,0.0,41.86,6.0,3.0,Iniciar negocio,Sí,No,No,True
+109,31.0,Perú,Finanzas,Contador/a,2833.16,637.6,2238.26,836.17,360.56,167.56,150.38,73.48,87.59,7.0,3.0,Comprar casa,Sí,Sí,No,False
+110,35.0,Chile,Tecnología,Médico/a,2057.85,105.27,,808.5,194.97,141.27,74.99,209.18,54.93,5.0,4.0,Iniciar negocio,No,Sí,Sí,False
+111,27.0,Colombia,Manufactura,Contador/a,1784.805,255.59,,675.22,365.91,191.08,92.41,172.17,77.99,6.0,4.0,Ahorrar para retiro,No,Sí,Sí,False
+112,36.0,Chile,Salud,Analista,1400.34,613.44,1137.85,127.39,75.48,87.7,100.09,0.0,52.24,8.0,4.0,Iniciar negocio,No,Sí,Sí,False
+113,32.0,Perú,Tecnología,Contador/a,2369.63,262.43,,771.42,276.11,214.58,97.25,27.66,155.96,6.0,2.0,Iniciar negocio,No,No,Sí,False
+114,30.0,Chile,Tecnología,Emprendedor/a,2547.93,361.43,8954.63,680.5,349.96,192.67,165.66,119.46,150.53,6.0,4.0,Iniciar negocio,Sí,No,No,False
+115,31.0,Colombia,Tecnología,Contador/a,1963.01,255.59,3663.01,594.02,244.57,118.44,65.71,69.8,119.07,6.0,4.0,Iniciar negocio,No,Sí,Sí,False
+116,31.0,Argentina,Manufactura,Contador/a,1964.08,384.63,,578.82,318.4,146.0,129.7,18.74,54.25,8.0,3.0,Iniciar negocio,Sí,Sí,No,False
+117,22.0,Brasil,Comercio,Analista,1989.24,255.59,,563.93,316.72,168.17,99.81,216.15,77.81,8.0,5.0,Ahorrar para retiro,No,Sí,Sí,False
+118,24.0,Colombia,Finanzas,Ingeniero/a,1195.66,-524.79,,453.54,232.98,108.65,128.0,78.54,70.66,3.0,5.0,Comprar casa,No,Sí,Sí,True
+119,26.0,Brasil,Tecnología,Analista,1696.73,516.63,,325.08,299.65,210.87,114.75,113.33,59.7,6.0,5.0,Pagar deudas,No,No,No,False
+120,24.0,Perú,Educación,Ingeniero/a,1693.23,-142.81,2062.07,445.93,322.43,108.7,151.03,43.14,73.53,6.0,4.0,Viajar,Sí,Sí,Sí,True
+121,30.0,Brasil,Manufactura,Gerente,2068.38,-326.92,1120.63,702.6,310.14,162.53,93.88,146.76,121.07,7.0,2.0,Viajar,Sí,No,No,True
+122,34.0,Chile,Tecnología,Emprendedor/a,2499.88,226.64,,676.27,393.19,217.04,152.24,102.17,111.04,8.0,3.0,Iniciar negocio,Sí,Sí,No,False
+123,34.0,Colombia,Comercio,Gerente,1059.02,283.59,4093.88,124.65,189.54,83.78,24.3,35.95,61.99,4.0,3.0,Ahorrar para retiro,No,No,No,False
+124,30.0,México,Tecnología,Docente,1712.49,-27.4,,593.97,265.37,116.97,86.21,122.28,149.33,5.0,3.0,Fondo de emergencia,No,No,Sí,True
+125,38.0,Chile,Finanzas,Médico/a,2837.02,582.41,1522.71,985.88,401.72,164.99,159.74,44.11,134.98,6.0,3.0,Pagar deudas,No,Sí,No,False
+126,32.0,Argentina,Educación,Médico/a,1279.49,-286.87,1447.92,378.45,171.98,81.93,47.74,159.8,111.15,4.0,5.0,Ahorrar para retiro,No,No,No,True
+127,23.0,México,Tecnología,Docente,1224.42,87.22,,132.02,134.61,55.01,24.85,72.16,83.6,8.0,1.0,Iniciar negocio,Sí,Sí,Sí,False
+128,36.0,Brasil,Finanzas,Médico/a,1941.61,16.05,,667.2,316.54,86.26,59.96,173.94,38.39,3.0,2.0,Comprar casa,No,No,No,False
+129,32.0,Brasil,Tecnología,Diseñador/a,2391.07,255.59,,518.13,353.02,159.46,49.87,55.03,75.47,4.0,2.0,Pagar deudas,No,Sí,No,False
+130,34.0,Argentina,Tecnología,Gerente,1808.0,361.55,,579.46,231.41,102.76,66.23,35.01,57.06,5.0,3.0,Iniciar negocio,Sí,No,Sí,False
+131,32.0,Perú,Manufactura,Gerente,1784.805,-153.16,4029.0,712.59,369.81,241.77,188.92,66.8,102.32,6.0,2.0,Iniciar negocio,No,No,No,True
+132,31.0,Argentina,Tecnología,Médico/a,2399.76,539.71,,580.75,287.34,216.02,80.05,135.01,116.38,8.0,0.0,Ahorrar para retiro,Sí,No,No,False
+133,23.0,Argentina,Tecnología,Gerente,2389.27,275.2,6197.93,663.75,417.12,154.99,88.63,123.42,144.05,7.0,4.0,Comprar casa,No,Sí,Sí,False
+134,32.0,Chile,Tecnología,Emprendedor/a,1784.805,-506.78,473.17,634.37,332.9,164.62,202.91,81.53,159.6,6.0,2.0,Comprar casa,Sí,No,No,True
+135,37.0,Argentina,Tecnología,Analista,3429.36,-533.44,4882.9,951.5,462.64,200.02,180.3,110.62,183.8,2.0,4.0,Comprar casa,Sí,Sí,No,True
+136,27.0,Perú,Educación,Analista,1656.39,245.07,9997.7,567.56,296.97,112.74,112.23,6.82,64.99,8.0,4.0,Iniciar negocio,No,No,Sí,False
+137,33.0,Colombia,Gobierno,Docente,397.53,161.61,,65.73,30.0,47.76,49.54,16.97,0.0,5.0,3.0,Iniciar negocio,No,No,Sí,False
+138,22.0,Perú,Tecnología,Médico/a,2922.98,208.63,8708.79,994.52,354.06,266.84,201.88,118.21,148.97,7.0,0.0,Viajar,Sí,Sí,No,False
+139,28.0,Brasil,Manufactura,Docente,1479.61,238.81,,477.62,283.21,89.85,27.88,32.84,75.01,4.0,1.0,Viajar,Sí,Sí,Sí,False
+140,30.0,Brasil,Finanzas,Diseñador/a,1875.52,340.22,6493.33,478.95,249.1,192.12,103.29,186.6,101.09,6.0,2.0,Ahorrar para retiro,Sí,Sí,No,False
+141,40.0,México,Tecnología,Ingeniero/a,2716.69,629.06,,711.09,382.97,156.71,98.27,130.89,220.08,6.0,3.0,Ahorrar para retiro,Sí,No,No,False
+142,26.0,México,Educación,Diseñador/a,678.42,-194.44,1424.53,50.0,104.23,10.0,138.56,110.12,83.54,7.0,4.0,Comprar casa,Sí,No,No,True
+143,27.0,Chile,Tecnología,Gerente,1784.805,255.59,,312.04,207.13,102.29,0.0,14.2,77.59,3.0,6.0,Iniciar negocio,Sí,No,Sí,False
+144,29.0,Brasil,Salud,Gerente,679.11,-187.33,,161.18,103.07,121.17,0.0,48.64,0.0,5.0,2.0,Comprar casa,No,Sí,Sí,True
+145,40.0,Brasil,Salud,Emprendedor/a,1244.1,365.57,,88.57,114.67,119.27,33.02,58.88,41.69,5.0,3.0,Comprar casa,No,No,Sí,False
+146,38.0,Brasil,Educación,Médico/a,2107.75,747.98,3837.01,568.04,348.8,167.01,66.6,3.53,101.59,8.0,4.0,Iniciar negocio,No,Sí,No,False
+147,22.0,México,Tecnología,Médico/a,2166.93,77.46,3448.58,541.95,295.94,85.55,184.12,194.05,77.33,7.0,4.0,Viajar,Sí,Sí,Sí,False
+148,26.0,Chile,Finanzas,Ingeniero/a,1993.39,-750.68,2074.71,787.1,412.28,78.57,216.5,91.56,119.69,6.0,4.0,Pagar deudas,No,Sí,Sí,True
+149,37.0,Perú,Manufactura,Analista,811.06,255.59,5577.96,50.0,121.59,70.06,29.63,85.34,54.83,4.0,7.0,Ahorrar para retiro,No,Sí,Sí,False
+150,23.0,Chile,Gobierno,Gerente,300.0,-83.21,2238.83,50.0,30.0,10.0,0.0,0.0,0.0,7.0,0.0,Comprar casa,Sí,No,No,True
+151,38.0,Perú,Tecnología,Contador/a,1838.05,26.91,3094.92,684.61,297.15,102.81,20.81,82.01,139.78,8.0,3.0,Pagar deudas,No,Sí,No,False
+152,27.0,Colombia,Salud,Docente,1469.76,86.64,,603.74,337.14,120.2,78.42,21.48,77.58,3.0,6.0,Pagar deudas,No,Sí,No,False
+153,39.0,Argentina,Comercio,Diseñador/a,2121.57,265.43,7185.77,547.07,412.79,174.33,114.64,180.24,36.92,6.0,1.0,Viajar,Sí,Sí,Sí,False
+154,27.0,Argentina,Finanzas,Ingeniero/a,2291.37,125.3,3713.56,611.56,453.56,221.09,111.43,133.25,112.51,7.0,4.0,Comprar casa,Sí,Sí,Sí,False
+155,30.0,Brasil,Salud,Diseñador/a,1896.77,255.59,4634.78,642.98,223.33,157.21,122.66,116.86,106.09,7.0,3.0,Ahorrar para retiro,Sí,No,Sí,False
+156,34.0,Colombia,Comercio,Médico/a,2332.09,-20.41,,420.38,404.54,235.7,155.73,198.1,155.52,4.0,3.0,Comprar casa,Sí,Sí,Sí,True
+157,24.0,Colombia,Gobierno,Emprendedor/a,1960.45,-94.93,,364.79,250.75,157.16,130.55,167.4,84.52,7.0,5.0,Pagar deudas,Sí,Sí,Sí,True
+158,32.0,México,Educación,Emprendedor/a,2171.05,441.55,4711.9,617.63,339.11,169.07,117.62,154.47,141.67,5.0,1.0,Ahorrar para retiro,Sí,Sí,No,False
+159,31.0,México,Manufactura,Contador/a,1306.73,255.59,856.67,578.01,119.63,147.11,34.34,0.0,72.82,4.0,3.0,Ahorrar para retiro,Sí,No,Sí,False
+160,36.0,Brasil,Educación,Ingeniero/a,1674.27,405.88,3496.37,449.99,212.47,94.8,127.09,41.97,31.11,6.0,2.0,Viajar,No,No,Sí,False
+161,31.0,Brasil,Finanzas,Emprendedor/a,1937.74,291.02,4125.05,593.43,250.09,267.6,116.76,36.65,40.28,6.0,3.0,Pagar deudas,Sí,No,No,False
+162,34.0,Colombia,Comercio,Analista,2374.37,191.02,1276.06,848.37,410.07,204.96,178.0,162.37,163.62,5.0,3.0,Ahorrar para retiro,Sí,Sí,No,False
+163,29.0,Perú,Tecnología,Diseñador/a,1524.38,885.31,,710.14,276.7,137.18,123.07,86.46,124.06,6.0,3.0,Iniciar negocio,Sí,Sí,Sí,False
+164,29.0,Chile,Tecnología,Emprendedor/a,2164.82,1.12,,580.22,341.33,194.19,73.02,24.81,121.16,6.0,0.0,Pagar deudas,No,Sí,No,False
+165,29.0,Brasil,Educación,Contador/a,1613.91,1074.12,,482.15,161.06,204.2,39.47,69.37,140.52,10.0,1.0,Pagar deudas,No,Sí,Sí,False
+166,31.0,Colombia,Comercio,Analista,1717.72,159.83,,733.96,238.96,169.12,72.84,0.0,128.15,9.0,3.0,Pagar deudas,Sí,Sí,No,False
+167,28.0,Brasil,Comercio,Contador/a,2380.66,-260.81,819.21,531.53,312.33,126.25,100.59,115.84,146.38,3.0,2.0,Comprar casa,No,No,Sí,True
+168,25.0,Argentina,Educación,Ingeniero/a,404.86,277.97,,244.77,112.91,88.53,54.5,0.0,0.0,6.0,4.0,Pagar deudas,Sí,No,Sí,False
+169,28.0,Perú,Finanzas,Diseñador/a,892.47,-180.5,,145.54,204.56,57.76,67.6,76.35,113.88,3.0,4.0,Viajar,Sí,No,No,True
+170,22.0,Argentina,Finanzas,Emprendedor/a,762.47,-50.7,1071.65,241.04,177.75,65.28,89.72,60.8,59.58,7.0,4.0,Comprar casa,No,No,Sí,True
+171,24.0,Perú,Salud,Diseñador/a,300.0,255.59,2227.68,60.89,30.0,10.0,33.86,129.48,0.0,5.0,2.0,Viajar,No,No,Sí,False
+172,23.0,Argentina,Finanzas,Emprendedor/a,1325.21,472.23,,282.6,34.41,127.06,87.86,117.13,39.53,6.0,2.0,Comprar casa,No,Sí,Sí,False
+173,36.0,Brasil,Salud,Contador/a,2324.6,1.13,4985.16,579.41,242.67,159.91,187.47,90.86,126.5,5.0,3.0,Viajar,No,Sí,No,False
+174,35.0,Chile,Tecnología,Docente,1600.58,644.96,1583.55,513.34,325.38,132.05,114.82,129.11,13.19,7.0,2.0,Comprar casa,Sí,Sí,No,False
+175,35.0,Colombia,Finanzas,Docente,1938.45,713.0,,701.0,266.69,143.71,119.03,13.06,124.91,6.0,6.0,Ahorrar para retiro,No,Sí,Sí,False
+176,31.0,Brasil,Gobierno,Contador/a,2562.45,824.52,,753.17,339.32,282.0,212.97,70.37,89.98,8.0,4.0,Pagar deudas,No,No,No,False
+177,35.0,Perú,Manufactura,Ingeniero/a,1784.805,461.77,10266.73,827.23,507.97,297.64,168.37,156.46,151.29,7.0,6.0,Viajar,Sí,Sí,Sí,False
+178,25.0,Argentina,Tecnología,Emprendedor/a,1751.6,795.37,4829.18,594.02,338.65,141.99,92.92,0.0,66.72,5.0,2.0,Iniciar negocio,Sí,No,No,False
+179,39.0,México,Finanzas,Gerente,2747.51,-502.32,,707.66,413.59,222.36,131.34,135.15,126.8,6.0,5.0,Pagar deudas,No,No,Sí,True
+180,31.0,Brasil,Finanzas,Docente,1864.49,122.84,,648.11,262.07,134.22,139.99,32.01,62.95,6.0,4.0,Comprar casa,Sí,Sí,Sí,False
+181,39.0,Perú,Finanzas,Contador/a,1213.82,-96.8,,462.47,174.15,141.35,122.31,66.77,54.24,7.0,1.0,Pagar deudas,Sí,No,Sí,True
+182,24.0,Perú,Manufactura,Docente,1383.92,297.69,6130.88,727.61,221.22,97.56,81.01,4.53,144.77,5.0,0.0,Iniciar negocio,No,Sí,Sí,False
+183,31.0,Perú,Comercio,Diseñador/a,763.62,21.42,660.43,183.95,210.55,44.24,98.13,63.64,93.58,3.0,1.0,Comprar casa,Sí,Sí,Sí,False
+184,35.0,Chile,Manufactura,Médico/a,1178.31,255.59,2163.23,298.52,202.09,133.41,0.0,60.08,73.09,6.0,2.0,Iniciar negocio,No,Sí,Sí,False
+185,31.0,Colombia,Salud,Analista,1549.39,1002.87,,557.09,275.97,102.42,90.75,161.49,76.46,10.0,2.0,Pagar deudas,No,Sí,Sí,False
+186,30.0,Colombia,Tecnología,Docente,2362.51,182.11,9228.61,807.05,424.53,187.49,140.15,118.53,151.89,6.0,0.0,Comprar casa,Sí,Sí,No,False
+187,31.0,México,Tecnología,Contador/a,3004.54,415.52,8992.35,837.15,380.5,177.11,151.19,104.11,195.43,6.0,3.0,Iniciar negocio,Sí,No,Sí,False
+188,29.0,México,Comercio,Contador/a,832.47,157.09,,201.36,170.16,94.77,145.3,26.81,8.43,5.0,3.0,Comprar casa,Sí,No,Sí,False
+189,26.0,Perú,Educación,Ingeniero/a,2074.98,280.29,8703.32,687.43,293.57,243.63,121.85,23.09,100.65,9.0,3.0,Pagar deudas,No,No,No,False
+190,27.0,Brasil,Salud,Gerente,1071.62,252.41,,222.18,30.0,114.58,47.99,77.95,0.0,6.0,0.0,Ahorrar para retiro,No,No,Sí,False
+191,34.0,México,Educación,Ingeniero/a,2132.29,255.59,4111.92,590.42,192.15,229.06,128.98,142.01,151.54,6.0,1.0,Viajar,Sí,No,No,False
+192,33.0,Chile,Comercio,Contador/a,1708.24,716.12,8738.56,523.22,195.15,102.82,22.38,233.56,168.01,8.0,4.0,Comprar casa,Sí,No,No,False
+193,33.0,México,Comercio,Docente,1784.805,255.59,,275.02,109.63,50.92,0.71,0.0,29.12,5.0,1.0,Comprar casa,No,Sí,No,False
+194,28.0,Argentina,Tecnología,Contador/a,2449.81,373.85,3542.96,662.39,374.3,158.26,186.32,106.42,37.49,8.0,4.0,Viajar,No,No,No,False
+195,40.0,Perú,Finanzas,Médico/a,1376.5,255.59,6010.26,191.86,217.54,101.01,57.43,34.28,93.18,8.0,3.0,Fondo de emergencia,No,No,No,False
+196,23.0,Perú,Tecnología,Diseñador/a,1426.27,-210.35,2849.22,197.89,331.0,144.99,52.42,84.04,35.15,6.0,3.0,Comprar casa,No,Sí,Sí,True
+197,28.0,Brasil,Finanzas,Diseñador/a,1051.17,214.85,,164.22,81.53,88.17,115.45,75.46,26.02,7.0,1.0,Pagar deudas,Sí,Sí,No,False
+198,24.0,Colombia,Educación,Gerente,1784.805,255.59,3793.76,245.02,199.65,50.85,134.13,63.9,92.16,7.0,0.0,Iniciar negocio,No,No,No,False
+199,28.0,Brasil,Tecnología,Analista,2099.52,596.39,3616.25,611.3,333.19,115.36,146.65,170.16,115.16,5.0,6.0,Ahorrar para retiro,No,No,No,False
+200,40.0,Perú,Tecnología,Médico/a,1667.53,334.64,2736.16,357.59,205.95,78.16,81.85,46.36,63.85,6.0,5.0,Pagar deudas,Sí,Sí,Sí,False
+201,28.0,Argentina,Salud,Médico/a,2030.06,255.59,6148.3,524.69,306.21,182.06,112.22,160.67,75.52,6.0,3.0,Fondo de emergencia,No,Sí,Sí,False
+202,39.0,Colombia,Salud,Gerente,1784.805,446.31,3449.18,523.11,212.01,246.82,91.04,134.98,107.7,7.0,4.0,Iniciar negocio,No,Sí,Sí,False
+203,31.0,México,Manufactura,Médico/a,2724.46,730.12,,764.48,493.26,272.46,123.68,135.5,119.84,9.0,3.0,Ahorrar para retiro,No,Sí,No,False
+204,35.0,Brasil,Tecnología,Ingeniero/a,1560.05,255.59,,626.72,193.11,48.96,51.83,59.11,33.63,9.0,2.0,Iniciar negocio,Sí,No,Sí,False
+205,30.0,Colombia,Finanzas,Analista,1784.805,107.72,17593.87,309.29,236.81,118.14,21.25,183.91,25.01,6.0,1.0,Iniciar negocio,Sí,Sí,No,False
+206,27.0,Colombia,Manufactura,Diseñador/a,2547.06,384.34,,766.05,380.11,241.22,111.43,78.33,140.94,8.0,5.0,Viajar,Sí,Sí,Sí,False
+207,36.0,Argentina,Educación,Gerente,1567.96,-922.24,,415.06,296.88,63.62,31.53,96.27,71.27,3.0,5.0,Pagar deudas,No,No,Sí,True
+208,40.0,México,Comercio,Analista,2580.21,255.59,,722.08,383.83,194.29,163.59,84.0,72.47,6.0,2.0,Fondo de emergencia,Sí,No,No,False
+209,27.0,Perú,Comercio,Contador/a,2068.36,-1209.37,,659.84,308.41,209.29,133.49,210.56,142.98,3.0,2.0,Fondo de emergencia,Sí,No,No,True
+210,36.0,Perú,Comercio,Médico/a,1784.805,255.59,3884.98,582.56,221.19,158.67,170.52,138.62,0.0,4.0,2.0,Fondo de emergencia,Sí,No,No,False
+211,26.0,México,Salud,Gerente,2044.14,430.71,,504.33,313.77,111.17,95.91,61.51,84.35,7.0,3.0,Iniciar negocio,Sí,Sí,No,False
+212,35.0,México,Gobierno,Gerente,3165.71,441.01,,954.09,493.94,277.69,201.79,189.04,133.48,5.0,2.0,Pagar deudas,No,No,No,False
+213,36.0,México,Salud,Ingeniero/a,3253.89,-214.97,8240.75,732.37,441.03,174.81,207.74,178.16,168.62,4.0,3.0,Comprar casa,No,No,No,True
+214,30.0,Brasil,Comercio,Diseñador/a,1784.805,255.59,,579.98,269.78,138.97,100.76,61.43,114.89,6.0,7.0,Comprar casa,No,No,Sí,False
+215,36.0,Argentina,Finanzas,Médico/a,1912.13,798.22,957.57,665.1,250.21,198.49,144.5,141.1,140.68,9.0,3.0,Fondo de emergencia,Sí,Sí,No,False
+216,27.0,Chile,Salud,Médico/a,2553.37,56.39,2660.77,732.4,520.99,205.01,184.21,151.03,99.17,4.0,2.0,Pagar deudas,No,Sí,No,False
+217,23.0,México,Educación,Ingeniero/a,1208.04,1147.17,,580.4,175.82,76.69,85.58,73.34,83.87,9.0,0.0,Comprar casa,No,No,No,False
+218,23.0,Colombia,Finanzas,Ingeniero/a,2033.15,249.23,,504.2,397.69,198.23,111.76,99.14,109.49,5.0,5.0,Ahorrar para retiro,No,Sí,No,False
+219,31.0,Chile,Tecnología,Médico/a,1781.9,413.21,,560.66,255.55,181.54,92.61,114.96,20.63,7.0,3.0,Comprar casa,No,No,No,False
+220,39.0,Colombia,Comercio,Analista,2019.74,896.75,2667.95,601.62,318.52,213.98,66.47,114.75,177.01,6.0,4.0,Viajar,No,No,Sí,False
+221,24.0,Chile,Salud,Contador/a,1784.805,302.41,,352.96,103.21,132.3,40.76,64.38,3.28,7.0,1.0,Viajar,Sí,No,No,False
+222,30.0,Brasil,Comercio,Médico/a,687.3,-150.94,,192.47,76.27,98.24,16.36,0.0,51.14,6.0,1.0,Pagar deudas,No,No,No,True
+223,35.0,Colombia,Finanzas,Médico/a,348.91,206.11,5635.8,117.53,64.97,57.23,0.0,119.07,33.04,9.0,4.0,Iniciar negocio,No,No,Sí,False
+224,25.0,Chile,Gobierno,Contador/a,1017.83,235.76,17489.98,407.1,247.83,92.05,78.67,0.0,61.92,5.0,4.0,Pagar deudas,No,No,No,False
+225,35.0,Brasil,Educación,Gerente,1478.93,-295.9,4859.05,609.01,235.16,121.89,136.6,99.6,54.16,3.0,4.0,Fondo de emergencia,Sí,No,No,True
+226,27.0,Brasil,Manufactura,Médico/a,1594.77,147.67,,478.16,322.24,118.09,59.36,60.52,112.83,5.0,6.0,Iniciar negocio,No,Sí,No,False
+227,37.0,México,Manufactura,Docente,3156.06,-46.88,265.85,1044.66,511.85,203.99,200.7,263.38,95.39,5.0,4.0,Comprar casa,No,Sí,No,True
+228,33.0,México,Tecnología,Médico/a,2574.2,619.74,13820.02,688.05,483.77,167.72,113.09,74.5,126.08,4.0,4.0,Ahorrar para retiro,No,Sí,Sí,False
+229,32.0,Brasil,Comercio,Contador/a,1126.54,263.84,5062.7,429.88,165.44,78.84,55.4,12.21,33.77,6.0,3.0,Iniciar negocio,No,Sí,No,False
+230,25.0,Brasil,Gobierno,Emprendedor/a,2043.4,136.88,,521.58,449.92,173.13,94.99,43.98,75.08,5.0,1.0,Viajar,Sí,Sí,No,False
+231,30.0,Colombia,Educación,Médico/a,1515.05,207.53,292.26,585.39,198.13,178.84,114.98,95.16,92.9,7.0,6.0,Iniciar negocio,No,Sí,Sí,False
+232,38.0,Chile,Gobierno,Ingeniero/a,1784.805,255.59,3811.99,745.56,194.15,126.4,68.91,0.0,123.15,7.0,4.0,Pagar deudas,No,No,No,False
+233,22.0,Chile,Comercio,Diseñador/a,1929.73,496.73,,564.27,216.86,194.52,156.25,67.77,82.76,6.0,3.0,Comprar casa,Sí,Sí,Sí,False
+234,36.0,Perú,Educación,Médico/a,2233.42,-149.88,,406.92,474.87,221.85,124.18,0.0,142.9,6.0,4.0,Iniciar negocio,Sí,No,No,True
+235,31.0,Perú,Salud,Ingeniero/a,1562.52,-166.64,1167.83,402.99,283.54,115.74,67.77,92.55,80.12,6.0,5.0,Iniciar negocio,Sí,No,No,True
+236,35.0,Argentina,Comercio,Docente,2544.7,691.87,1087.76,911.24,361.66,227.36,102.55,97.22,91.53,6.0,2.0,Viajar,Sí,No,No,False
+237,34.0,Brasil,Tecnología,Diseñador/a,1000.64,255.59,,366.56,225.04,70.31,70.17,0.0,39.71,5.0,3.0,Pagar deudas,Sí,Sí,No,False
+238,30.0,México,Educación,Analista,1804.44,-316.74,,571.2,311.93,197.24,144.08,155.36,78.24,6.0,4.0,Comprar casa,No,Sí,Sí,True
+239,27.0,México,Comercio,Contador/a,3618.37,255.59,2681.25,1206.55,660.72,314.9,228.04,102.46,153.05,5.0,0.0,Iniciar negocio,No,No,Sí,False
+240,33.0,Brasil,Gobierno,Emprendedor/a,1784.805,435.35,,644.98,200.55,108.87,206.92,145.62,114.95,6.0,2.0,Viajar,Sí,Sí,No,False
+241,24.0,Colombia,Finanzas,Emprendedor/a,2803.25,255.59,4067.95,987.1,404.57,230.72,225.39,98.1,149.55,6.0,5.0,Iniciar negocio,No,No,Sí,False
+242,33.0,Brasil,Tecnología,Gerente,1864.06,341.79,1030.41,669.55,251.86,215.05,99.54,189.3,29.58,6.0,3.0,Ahorrar para retiro,Sí,Sí,No,False
+243,23.0,Colombia,Finanzas,Ingeniero/a,2206.54,544.23,7870.59,844.57,212.56,169.27,119.67,155.3,44.27,6.0,8.0,Iniciar negocio,No,No,Sí,False
+244,34.0,Argentina,Comercio,Emprendedor/a,1760.25,255.59,,571.13,327.66,158.73,124.4,27.53,105.0,5.0,2.0,Iniciar negocio,Sí,Sí,No,False
+245,33.0,México,Salud,Emprendedor/a,1680.71,502.79,,612.84,235.88,156.29,67.32,29.01,51.42,7.0,5.0,Fondo de emergencia,Sí,No,No,False
+246,23.0,Brasil,Tecnología,Contador/a,1254.36,-311.71,10985.13,339.45,232.53,58.88,121.91,99.05,74.8,5.0,2.0,Viajar,Sí,Sí,Sí,True
+247,36.0,Argentina,Tecnología,Docente,2101.21,382.42,,558.19,456.77,188.53,140.54,89.32,136.3,7.0,1.0,Iniciar negocio,No,Sí,Sí,False
+248,29.0,Colombia,Finanzas,Contador/a,1203.92,128.95,,565.99,159.39,40.56,82.49,50.04,9.36,6.0,2.0,Pagar deudas,No,No,Sí,False
+249,36.0,Argentina,Finanzas,Ingeniero/a,2265.91,56.88,,705.72,314.62,156.25,163.43,189.63,56.83,3.0,3.0,Iniciar negocio,Sí,Sí,No,False
+250,22.0,México,Tecnología,Analista,2559.7,598.22,7763.72,864.5,391.07,247.8,222.5,83.06,194.96,6.0,0.0,Iniciar negocio,No,Sí,Sí,False
+251,25.0,Perú,Salud,Analista,2056.57,841.71,2471.26,631.82,367.72,178.8,130.23,108.31,116.89,7.0,5.0,Iniciar negocio,Sí,No,No,False
+252,31.0,México,Salud,Emprendedor/a,1599.63,967.75,2594.72,409.51,205.94,115.79,91.46,137.26,63.21,7.0,2.0,Fondo de emergencia,Sí,Sí,Sí,False
+253,25.0,Argentina,Tecnología,Ingeniero/a,2117.78,775.92,6543.42,636.65,279.81,187.28,187.42,154.44,68.53,8.0,2.0,Comprar casa,Sí,Sí,No,False
+254,28.0,Argentina,Tecnología,Contador/a,1583.93,206.11,,647.5,301.02,124.31,133.74,69.62,58.78,8.0,1.0,Iniciar negocio,No,No,No,False
+255,34.0,México,Educación,Diseñador/a,2454.88,391.09,,803.09,390.95,196.89,134.45,105.41,75.12,8.0,5.0,Iniciar negocio,No,Sí,Sí,False
+256,24.0,México,Gobierno,Ingeniero/a,518.02,556.73,,50.0,30.0,67.71,31.29,0.0,61.24,5.0,4.0,Viajar,No,No,Sí,False
+257,34.0,Chile,Gobierno,Emprendedor/a,1565.07,298.47,,443.69,161.24,96.11,101.72,14.88,47.18,7.0,1.0,Viajar,No,Sí,Sí,False
+258,23.0,Argentina,Educación,Ingeniero/a,406.43,302.31,3718.12,335.8,151.04,34.13,38.86,39.42,64.06,7.0,2.0,Iniciar negocio,No,Sí,No,False
+259,25.0,México,Tecnología,Médico/a,753.46,579.5,7518.43,200.38,137.13,47.79,0.0,29.4,21.65,6.0,5.0,Pagar deudas,Sí,Sí,No,False
+260,33.0,México,Comercio,Médico/a,2754.7,226.29,,610.35,367.47,156.95,103.58,142.23,96.0,7.0,3.0,Pagar deudas,Sí,Sí,No,False
+261,37.0,Perú,Gobierno,Médico/a,2426.63,-41.71,3241.39,955.15,353.77,157.31,110.1,183.69,104.28,5.0,6.0,Iniciar negocio,Sí,No,No,True
+262,25.0,Perú,Finanzas,Analista,1296.36,84.21,,470.8,195.25,166.44,39.19,0.0,0.0,4.0,5.0,Iniciar negocio,Sí,No,No,False
+263,27.0,Chile,Finanzas,Emprendedor/a,1784.805,503.56,12454.85,216.07,156.38,75.25,19.14,23.24,32.58,7.0,1.0,Ahorrar para retiro,Sí,No,Sí,False
+264,39.0,Brasil,Tecnología,Contador/a,300.0,251.2,5200.3,50.0,30.0,10.0,43.39,26.32,8.2,6.0,4.0,Iniciar negocio,Sí,No,Sí,False
+265,40.0,México,Comercio,Gerente,1419.55,386.08,,555.75,162.48,51.95,78.42,28.73,103.97,6.0,6.0,Ahorrar para retiro,No,Sí,No,False
+266,33.0,Perú,Manufactura,Docente,3494.29,518.03,10892.76,983.25,540.52,275.06,217.51,260.6,99.26,7.0,4.0,Comprar casa,Sí,No,No,False
+267,30.0,Perú,Tecnología,Diseñador/a,2104.42,100.06,4482.35,769.12,309.67,230.8,77.29,159.74,151.7,5.0,8.0,Fondo de emergencia,No,Sí,No,False
+268,28.0,Colombia,Manufactura,Diseñador/a,1408.3,552.5,1730.42,487.55,245.56,105.19,66.03,87.82,103.24,6.0,4.0,Ahorrar para retiro,No,Sí,No,False
+269,33.0,Chile,Finanzas,Diseñador/a,2125.56,401.54,9435.11,667.03,245.06,222.32,151.02,213.93,156.36,6.0,3.0,Ahorrar para retiro,No,Sí,Sí,False
+270,33.0,Perú,Salud,Contador/a,707.33,-243.93,851.16,229.66,127.53,70.66,66.24,0.0,33.26,5.0,3.0,Ahorrar para retiro,Sí,No,No,True
+271,27.0,Chile,Tecnología,Contador/a,1591.87,826.92,8378.73,456.56,304.28,146.2,66.53,79.13,120.15,8.0,3.0,Pagar deudas,No,Sí,No,False
+272,22.0,Colombia,Comercio,Analista,1869.63,49.7,4141.21,686.37,309.65,96.14,118.64,115.46,34.63,4.0,3.0,Comprar casa,No,No,Sí,False
+273,24.0,Chile,Finanzas,Analista,1739.73,-412.04,3269.38,418.08,269.31,176.68,192.34,32.11,115.51,3.0,2.0,Comprar casa,No,Sí,Sí,True
+274,40.0,Perú,Comercio,Emprendedor/a,2353.56,-168.02,3201.4,511.44,347.28,174.89,140.51,135.72,86.83,2.0,6.0,Pagar deudas,No,Sí,No,True
+275,29.0,México,Tecnología,Contador/a,2041.25,255.59,3706.8,686.11,256.1,197.82,94.75,35.67,36.01,6.0,4.0,Ahorrar para retiro,No,No,Sí,False
+276,31.0,Chile,Educación,Médico/a,2267.83,255.59,2894.17,756.1,335.85,148.86,129.12,154.82,68.43,4.0,0.0,Ahorrar para retiro,Sí,Sí,Sí,False
+277,30.0,Chile,Finanzas,Diseñador/a,1318.14,140.46,5764.03,453.07,273.3,112.53,82.78,129.38,66.13,6.0,1.0,Fondo de emergencia,No,Sí,Sí,False
+278,36.0,Argentina,Gobierno,Diseñador/a,2428.47,115.27,,777.47,357.13,208.36,139.66,137.76,88.45,6.0,6.0,Viajar,Sí,No,No,False
+279,23.0,México,Educación,Diseñador/a,2940.26,255.59,,843.61,387.65,229.06,175.16,35.85,162.06,8.0,8.0,Comprar casa,No,Sí,Sí,False
+280,23.0,México,Manufactura,Contador/a,1120.9,385.95,,430.77,138.6,105.85,9.52,0.0,0.0,5.0,1.0,Comprar casa,No,Sí,Sí,False
+281,27.0,Perú,Tecnología,Médico/a,1178.61,376.42,,348.12,188.84,83.63,32.21,92.81,0.0,6.0,1.0,Iniciar negocio,Sí,No,Sí,False
+282,31.0,Perú,Educación,Contador/a,2735.05,413.93,2846.05,762.06,387.85,192.84,158.13,138.02,191.65,9.0,1.0,Ahorrar para retiro,No,No,Sí,False
+283,34.0,Argentina,Tecnología,Diseñador/a,1666.06,496.45,,462.39,279.03,197.5,93.35,0.0,119.46,9.0,4.0,Comprar casa,Sí,Sí,Sí,False
+284,31.0,Brasil,Finanzas,Emprendedor/a,2782.67,-593.18,3380.27,1077.28,448.77,264.57,144.31,213.7,97.16,5.0,0.0,Viajar,Sí,No,No,True
+285,30.0,Brasil,Tecnología,Contador/a,1490.23,104.22,,238.87,276.87,88.78,82.33,82.71,74.39,6.0,5.0,Fondo de emergencia,Sí,Sí,Sí,False
+286,39.0,Chile,Tecnología,Gerente,2818.53,-622.08,6612.39,905.53,508.19,248.22,171.55,91.78,181.71,2.0,3.0,Pagar deudas,No,Sí,Sí,True
+287,25.0,Chile,Educación,Ingeniero/a,1892.04,264.42,6741.6,366.12,343.56,121.66,149.1,154.3,111.37,7.0,1.0,Iniciar negocio,Sí,Sí,No,False
+288,32.0,Brasil,Tecnología,Contador/a,1980.76,248.15,,581.24,241.06,111.07,114.88,58.39,104.97,6.0,1.0,Pagar deudas,No,No,No,False
+289,32.0,Chile,Salud,Contador/a,2895.3,668.21,4354.72,816.55,380.08,272.98,189.68,103.46,188.57,8.0,1.0,Comprar casa,Sí,Sí,No,False
+290,30.0,Brasil,Manufactura,Emprendedor/a,1546.76,255.59,,213.82,227.47,55.58,71.14,98.84,48.11,6.0,2.0,Iniciar negocio,No,Sí,No,False
+291,37.0,Brasil,Tecnología,Analista,1784.805,331.11,4457.06,389.05,144.11,128.37,91.36,163.92,58.31,6.0,4.0,Fondo de emergencia,Sí,No,Sí,False
+292,27.0,Colombia,Manufactura,Analista,1486.01,49.86,3386.23,400.2,154.6,108.77,104.19,171.72,73.59,6.0,4.0,Fondo de emergencia,Sí,No,Sí,False
+293,40.0,Chile,Finanzas,Emprendedor/a,2116.63,444.06,1883.33,383.08,290.99,160.87,161.63,127.41,94.92,7.0,3.0,Comprar casa,No,Sí,Sí,False
+294,28.0,Perú,Finanzas,Contador/a,703.97,38.83,,311.94,77.12,72.71,70.78,62.94,19.61,6.0,2.0,Viajar,No,No,Sí,False
+295,32.0,Perú,Educación,Ingeniero/a,2246.23,249.44,961.56,846.07,296.62,202.95,158.32,159.8,115.23,5.0,3.0,Viajar,No,Sí,No,False
+296,31.0,Argentina,Educación,Ingeniero/a,1422.86,644.45,,605.67,194.48,80.78,81.43,0.0,72.52,5.0,2.0,Comprar casa,No,No,Sí,False
+297,38.0,Brasil,Educación,Gerente,2603.47,255.59,1499.22,824.12,461.23,236.99,166.01,168.82,88.24,8.0,0.0,Fondo de emergencia,No,Sí,No,False
+298,30.0,Argentina,Tecnología,Contador/a,300.0,255.59,6686.52,95.53,56.95,28.53,60.54,0.0,47.07,10.0,1.0,Comprar casa,Sí,Sí,No,False
+299,27.0,Argentina,Educación,Analista,1249.4,520.96,,534.2,335.72,49.71,48.88,81.58,23.41,7.0,6.0,Ahorrar para retiro,Sí,No,No,False
+300,22.0,México,Finanzas,Diseñador/a,619.47,-131.92,,387.73,103.15,42.76,12.03,17.33,22.24,3.0,2.0,Fondo de emergencia,No,No,No,True
+301,28.0,Colombia,Finanzas,Docente,1221.64,639.56,2308.68,502.52,165.84,152.98,80.56,91.15,49.27,6.0,4.0,Viajar,No,No,No,False
+302,37.0,Brasil,Gobierno,Emprendedor/a,1973.37,529.43,,479.03,296.25,224.93,135.01,105.75,112.99,8.0,7.0,Iniciar negocio,No,No,Sí,False
+303,22.0,Perú,Tecnología,Gerente,1674.54,290.77,1088.72,526.52,266.57,162.66,67.51,0.0,0.0,8.0,1.0,Pagar deudas,Sí,Sí,No,False
+304,39.0,Perú,Finanzas,Gerente,1622.64,-54.93,,539.53,269.51,82.2,94.37,91.87,116.77,6.0,5.0,Iniciar negocio,Sí,No,No,True
+305,32.0,Brasil,Salud,Diseñador/a,1688.57,-93.68,8422.95,289.42,377.89,154.71,97.55,122.96,57.35,5.0,2.0,Comprar casa,No,No,No,True
+306,24.0,Colombia,Finanzas,Analista,1942.37,34.93,4695.01,639.03,240.64,189.42,27.93,123.87,145.92,6.0,1.0,Iniciar negocio,No,No,Sí,False
+307,27.0,Chile,Manufactura,Ingeniero/a,1094.02,467.04,6762.66,600.97,215.65,116.55,56.86,48.55,35.57,6.0,2.0,Comprar casa,Sí,Sí,No,False
+308,32.0,Argentina,Salud,Médico/a,2294.79,-132.25,4974.15,765.23,356.68,214.98,131.39,213.27,112.79,5.0,1.0,Ahorrar para retiro,No,Sí,No,True
+309,27.0,Brasil,Manufactura,Ingeniero/a,2263.87,425.0,,855.97,245.31,195.64,129.42,131.88,189.74,4.0,3.0,Viajar,Sí,No,Sí,False
+310,24.0,Argentina,Finanzas,Médico/a,2069.53,-246.7,1378.43,642.81,356.67,162.67,180.81,129.74,92.38,6.0,3.0,Pagar deudas,No,No,No,True
+311,34.0,Brasil,Comercio,Analista,1784.805,255.59,613.01,648.08,404.49,150.83,82.74,172.15,159.03,8.0,7.0,Comprar casa,Sí,Sí,Sí,False
+312,34.0,Perú,Manufactura,Docente,2007.49,255.59,,648.0,249.69,84.68,87.46,122.13,101.94,6.0,3.0,Iniciar negocio,No,Sí,Sí,False
+313,24.0,Perú,Finanzas,Emprendedor/a,3224.55,1228.05,813.58,869.47,483.15,271.55,88.99,107.35,177.84,9.0,5.0,Ahorrar para retiro,No,Sí,No,False
+314,27.0,Brasil,Gobierno,Docente,1739.03,-300.93,10648.09,406.06,157.33,146.56,85.11,0.0,89.75,4.0,4.0,Fondo de emergencia,Sí,Sí,No,True
+315,26.0,Perú,Comercio,Docente,1585.04,838.81,4502.74,627.47,162.23,149.11,79.28,50.62,113.17,6.0,3.0,Comprar casa,No,No,Sí,False
+316,34.0,Colombia,Educación,Diseñador/a,1272.53,255.59,,546.44,253.76,48.3,55.95,109.28,36.21,8.0,2.0,Ahorrar para retiro,Sí,No,Sí,False
+317,35.0,Chile,Tecnología,Contador/a,1077.42,414.47,4844.77,204.29,133.63,111.99,108.95,32.69,14.51,7.0,3.0,Ahorrar para retiro,Sí,No,Sí,False
+318,35.0,Argentina,Educación,Docente,928.87,297.34,,394.82,72.8,156.49,90.16,94.51,20.9,7.0,6.0,Viajar,Sí,No,No,False
+319,39.0,México,Manufactura,Gerente,1177.84,427.89,2115.65,342.92,190.44,97.37,73.78,67.82,62.88,9.0,7.0,Pagar deudas,No,Sí,Sí,False
+320,36.0,Chile,Finanzas,Ingeniero/a,1784.805,188.53,,565.93,231.23,137.57,90.21,164.81,78.69,4.0,2.0,Comprar casa,No,No,No,False
+321,28.0,Argentina,Tecnología,Emprendedor/a,2034.01,831.62,2557.35,665.43,276.85,175.08,163.09,83.99,130.11,7.0,5.0,Viajar,Sí,Sí,Sí,False
+322,24.0,Argentina,Educación,Analista,1835.8,67.41,,670.06,319.73,228.16,109.36,119.85,143.98,6.0,1.0,Fondo de emergencia,Sí,Sí,No,False
+323,33.0,México,Comercio,Emprendedor/a,1264.13,702.89,1569.8,389.17,119.92,60.18,43.12,93.56,24.17,6.0,4.0,Comprar casa,Sí,Sí,Sí,False
+324,39.0,Chile,Finanzas,Emprendedor/a,2430.13,255.59,8668.88,898.26,310.2,202.54,77.16,211.6,92.15,7.0,0.0,Ahorrar para retiro,No,Sí,Sí,False
+325,31.0,Chile,Salud,Ingeniero/a,2317.59,225.9,,732.41,356.88,153.42,121.4,13.48,58.43,6.0,3.0,Pagar deudas,Sí,Sí,Sí,False
+326,26.0,México,Tecnología,Docente,1688.25,-178.79,1430.72,581.38,311.4,113.18,131.48,56.91,165.63,4.0,3.0,Iniciar negocio,Sí,Sí,No,True
+327,26.0,Chile,Manufactura,Docente,1342.96,255.59,4660.46,302.9,275.73,105.45,171.64,118.06,79.33,7.0,1.0,Comprar casa,Sí,Sí,No,False
+328,22.0,Colombia,Comercio,Analista,2183.9,828.05,5736.04,914.21,287.68,228.6,133.5,201.95,128.39,8.0,2.0,Ahorrar para retiro,Sí,Sí,Sí,False
+329,24.0,México,Manufactura,Médico/a,1931.58,255.59,,635.85,345.98,226.57,85.28,110.98,42.97,7.0,4.0,Ahorrar para retiro,No,No,Sí,False
+330,32.0,Argentina,Salud,Ingeniero/a,786.31,171.25,8429.39,321.45,70.9,80.83,0.0,21.75,39.27,7.0,5.0,Viajar,No,No,No,False
+331,32.0,Argentina,Tecnología,Analista,1752.41,-195.85,,332.74,372.43,125.13,127.22,133.05,107.99,6.0,2.0,Comprar casa,Sí,Sí,Sí,True
+332,29.0,Brasil,Salud,Emprendedor/a,1983.43,158.28,,496.3,229.49,258.38,48.42,151.29,89.06,6.0,4.0,Viajar,No,No,Sí,False
+333,27.0,México,Gobierno,Docente,1170.21,-387.12,8975.86,499.61,255.24,76.51,92.23,36.93,101.54,4.0,3.0,Pagar deudas,No,No,Sí,True
+334,37.0,Argentina,Tecnología,Ingeniero/a,1932.89,-115.15,1381.47,614.29,250.54,131.79,148.68,116.46,189.12,4.0,3.0,Ahorrar para retiro,Sí,Sí,No,True
+335,30.0,Perú,Tecnología,Analista,781.62,340.71,1670.38,50.0,238.04,10.0,64.35,109.91,1.2,7.0,3.0,Fondo de emergencia,Sí,Sí,Sí,False
+336,37.0,Colombia,Comercio,Diseñador/a,2735.33,777.61,7005.79,945.19,445.78,274.67,155.33,250.19,95.88,7.0,3.0,Iniciar negocio,Sí,Sí,Sí,False
+337,40.0,Brasil,Educación,Ingeniero/a,2673.56,1373.68,2995.1,736.81,340.07,252.61,183.01,178.23,98.57,10.0,2.0,Iniciar negocio,No,No,Sí,False
+338,28.0,Perú,Tecnología,Analista,1623.24,15.37,9890.98,656.33,212.15,226.57,104.23,83.81,145.41,8.0,1.0,Fondo de emergencia,Sí,Sí,No,False
+339,31.0,Brasil,Tecnología,Contador/a,2054.42,824.12,11785.03,605.79,355.03,108.77,92.14,99.48,144.42,9.0,3.0,Ahorrar para retiro,Sí,Sí,No,False
+340,40.0,Brasil,Finanzas,Ingeniero/a,300.0,347.5,1429.1,114.56,108.16,82.33,92.02,48.44,9.58,7.0,1.0,Fondo de emergencia,Sí,No,No,False
+341,34.0,México,Educación,Diseñador/a,990.56,189.5,2078.0,438.64,144.34,82.05,45.37,42.59,50.99,6.0,4.0,Ahorrar para retiro,No,No,Sí,False
+342,31.0,Argentina,Comercio,Diseñador/a,1594.35,423.04,,370.61,241.83,159.79,126.69,91.1,47.06,5.0,4.0,Ahorrar para retiro,Sí,No,Sí,False
+343,33.0,Perú,Comercio,Emprendedor/a,1784.805,274.77,347.8,195.71,202.93,18.05,0.0,0.0,88.08,6.0,6.0,Viajar,No,Sí,Sí,False
+344,31.0,México,Salud,Emprendedor/a,2300.08,294.16,636.27,666.44,352.92,242.73,189.06,192.83,99.81,6.0,5.0,Iniciar negocio,No,Sí,No,False
+345,39.0,Argentina,Salud,Médico/a,3198.11,86.67,,1058.69,402.11,287.31,250.64,91.49,149.5,6.0,3.0,Viajar,Sí,Sí,Sí,False
+346,26.0,Perú,Gobierno,Diseñador/a,976.37,-309.24,,133.21,97.68,76.55,59.78,22.89,73.17,5.0,3.0,Viajar,Sí,Sí,No,True
+347,40.0,Perú,Manufactura,Contador/a,1213.78,-367.45,,163.97,196.17,122.91,95.18,66.54,53.17,6.0,1.0,Pagar deudas,Sí,No,Sí,True
+348,39.0,Argentina,Tecnología,Contador/a,1964.81,511.3,2392.34,688.29,367.65,126.56,140.23,217.7,88.84,6.0,6.0,Viajar,Sí,Sí,Sí,False
+349,25.0,Brasil,Educación,Médico/a,2927.78,139.32,,805.98,536.13,211.04,149.96,121.03,146.81,5.0,4.0,Pagar deudas,Sí,No,Sí,False
+350,25.0,Perú,Manufactura,Docente,944.34,11.56,1365.61,236.23,188.42,57.01,78.55,7.26,79.03,8.0,3.0,Pagar deudas,Sí,Sí,No,False
+351,32.0,México,Tecnología,Emprendedor/a,1974.33,253.4,2546.97,369.48,313.39,83.84,86.11,65.67,164.58,7.0,1.0,Viajar,Sí,No,No,False
+352,22.0,Colombia,Gobierno,Contador/a,3074.91,567.97,2422.51,841.0,506.17,280.46,160.14,253.28,177.16,6.0,4.0,Viajar,Sí,No,No,False
+353,27.0,Brasil,Finanzas,Emprendedor/a,643.77,255.59,3450.08,192.22,56.56,99.17,83.7,0.0,64.32,6.0,2.0,Ahorrar para retiro,Sí,Sí,Sí,False
+354,30.0,México,Salud,Docente,903.25,-12.42,5936.58,382.62,126.29,44.21,93.18,0.0,37.17,5.0,5.0,Comprar casa,No,No,No,True
+355,40.0,México,Salud,Docente,1503.48,740.52,,358.5,176.07,134.21,61.95,239.05,46.86,7.0,6.0,Ahorrar para retiro,No,No,No,False
+356,31.0,Argentina,Manufactura,Docente,1435.59,881.67,7302.48,629.56,140.41,104.23,56.79,107.23,97.94,6.0,1.0,Pagar deudas,Sí,Sí,Sí,False
+357,24.0,Brasil,Comercio,Diseñador/a,2368.82,447.82,3253.12,628.5,375.34,202.64,116.31,52.08,125.29,10.0,3.0,Comprar casa,Sí,Sí,No,False
+358,38.0,Perú,Finanzas,Contador/a,1969.16,639.47,12391.3,508.78,306.5,132.43,147.46,95.94,41.55,7.0,2.0,Ahorrar para retiro,Sí,No,No,False
+359,23.0,México,Finanzas,Diseñador/a,557.53,746.78,,351.74,124.89,10.0,0.0,31.92,14.75,8.0,2.0,Fondo de emergencia,Sí,No,Sí,False
+360,31.0,Argentina,Manufactura,Docente,2160.79,702.04,4907.99,673.61,356.89,214.95,143.92,158.81,104.72,5.0,4.0,Ahorrar para retiro,No,Sí,Sí,False
+361,38.0,Brasil,Gobierno,Diseñador/a,1395.72,495.64,,352.47,223.92,109.1,113.62,180.16,49.37,6.0,0.0,Iniciar negocio,Sí,Sí,Sí,False
+362,31.0,Colombia,Comercio,Médico/a,2692.11,255.59,,789.02,437.21,296.25,158.0,157.92,193.87,6.0,5.0,Comprar casa,No,Sí,No,False
+363,26.0,Chile,Manufactura,Contador/a,1360.69,457.86,,570.58,201.54,110.71,122.04,35.65,87.23,7.0,2.0,Fondo de emergencia,No,No,Sí,False
+364,38.0,Argentina,Manufactura,Docente,1354.37,-188.94,3299.37,582.26,227.93,71.31,69.09,114.94,122.65,1.0,5.0,Ahorrar para retiro,No,No,Sí,True
+365,24.0,Perú,Manufactura,Analista,2178.79,530.29,,555.62,283.25,223.38,122.17,67.04,119.48,8.0,3.0,Pagar deudas,Sí,Sí,No,False
+366,31.0,Perú,Gobierno,Médico/a,2334.05,255.59,,695.12,372.29,211.96,100.95,54.7,119.96,8.0,2.0,Iniciar negocio,No,Sí,Sí,False
+367,30.0,Perú,Tecnología,Médico/a,2113.67,-67.84,6186.14,644.92,357.16,198.17,167.51,0.09,68.22,2.0,3.0,Ahorrar para retiro,Sí,No,Sí,True
+368,28.0,México,Educación,Analista,620.08,771.43,,67.68,52.83,97.23,6.54,0.0,31.48,10.0,1.0,Viajar,No,Sí,Sí,False
+369,22.0,Argentina,Tecnología,Diseñador/a,2176.62,586.09,,646.3,329.6,148.02,144.59,55.04,109.35,3.0,0.0,Iniciar negocio,No,No,No,False
+370,36.0,Perú,Educación,Docente,1784.805,844.96,,323.43,123.98,80.99,61.71,0.0,0.0,9.0,3.0,Comprar casa,No,No,Sí,False
+371,31.0,Argentina,Finanzas,Médico/a,1964.69,255.59,16176.74,726.23,263.11,150.32,75.77,117.03,76.65,6.0,2.0,Comprar casa,Sí,No,Sí,False
+372,34.0,Perú,Finanzas,Docente,803.39,255.59,,385.91,53.01,12.64,23.84,0.0,27.24,1.0,5.0,Iniciar negocio,No,No,No,False
+373,29.0,Chile,Comercio,Gerente,1784.805,153.83,5033.53,594.22,392.81,158.45,182.06,0.0,122.16,7.0,1.0,Ahorrar para retiro,Sí,No,Sí,False
+374,29.0,Argentina,Manufactura,Diseñador/a,1235.38,290.81,,344.94,249.25,152.29,82.19,0.0,80.22,8.0,4.0,Fondo de emergencia,Sí,Sí,No,False
+375,38.0,México,Educación,Emprendedor/a,902.16,281.6,1511.29,350.36,167.57,81.67,13.76,16.8,21.86,7.0,4.0,Fondo de emergencia,Sí,No,Sí,False
+376,23.0,Brasil,Comercio,Médico/a,2299.67,703.47,6529.82,619.68,463.28,130.13,150.19,78.66,133.74,8.0,2.0,Fondo de emergencia,No,No,No,False
+377,35.0,Perú,Tecnología,Emprendedor/a,1969.15,105.49,,661.38,284.02,95.3,112.3,189.63,91.17,5.0,2.0,Fondo de emergencia,No,No,No,False
+378,31.0,Brasil,Educación,Diseñador/a,1784.805,390.81,4133.85,400.52,387.44,176.21,220.38,31.7,0.0,4.0,2.0,Iniciar negocio,No,Sí,No,False
+379,29.0,Colombia,Tecnología,Gerente,2815.83,255.59,,728.42,408.72,221.65,180.35,193.65,121.4,6.0,3.0,Pagar deudas,No,No,Sí,False
+380,26.0,Colombia,Tecnología,Analista,1491.54,430.13,,332.64,239.04,93.43,74.27,73.44,117.74,9.0,2.0,Fondo de emergencia,No,No,Sí,False
+381,22.0,Colombia,Tecnología,Emprendedor/a,1822.48,251.24,5901.95,720.39,249.51,134.84,166.15,88.59,23.85,8.0,4.0,Pagar deudas,Sí,Sí,No,False
+382,39.0,México,Salud,Médico/a,1988.24,-49.93,2101.7,577.7,320.58,99.97,45.65,49.29,103.92,2.0,4.0,Viajar,Sí,Sí,Sí,True
+383,40.0,Colombia,Educación,Analista,1366.23,155.67,3945.43,606.71,255.07,166.22,85.75,64.78,131.72,4.0,3.0,Comprar casa,Sí,No,Sí,False
+384,26.0,Colombia,Manufactura,Analista,2129.8,176.33,992.94,577.3,312.64,154.66,207.57,60.58,76.07,5.0,5.0,Fondo de emergencia,No,No,No,False
+385,22.0,Brasil,Salud,Contador/a,1426.58,255.59,147.29,462.92,320.59,168.82,80.95,81.53,71.41,3.0,2.0,Viajar,Sí,No,No,False
+386,24.0,Colombia,Gobierno,Gerente,1511.85,958.54,,740.68,241.13,123.01,21.38,61.42,23.43,8.0,3.0,Fondo de emergencia,Sí,Sí,No,False
+387,23.0,Chile,Finanzas,Gerente,2753.85,255.59,2768.31,699.27,429.31,277.49,149.39,81.01,202.78,7.0,1.0,Pagar deudas,Sí,Sí,No,False
+388,37.0,Chile,Tecnología,Diseñador/a,1071.59,152.44,,93.74,106.2,95.99,122.48,113.09,50.25,6.0,3.0,Ahorrar para retiro,No,No,No,False
+389,31.0,Argentina,Tecnología,Docente,300.0,-588.98,7025.93,244.39,70.11,58.13,33.04,40.61,16.87,5.0,5.0,Viajar,Sí,Sí,Sí,True
+390,24.0,Brasil,Tecnología,Emprendedor/a,2927.66,-107.68,8281.62,779.08,431.11,262.98,142.11,119.5,200.56,6.0,2.0,Fondo de emergencia,Sí,No,Sí,True
+391,36.0,México,Salud,Emprendedor/a,3584.53,144.77,5191.62,1072.87,501.19,311.69,187.66,187.96,205.69,5.0,1.0,Viajar,Sí,No,No,False
+392,25.0,Brasil,Finanzas,Gerente,1516.31,-24.34,6680.59,384.58,180.86,135.22,68.59,70.79,40.79,5.0,5.0,Iniciar negocio,No,Sí,No,True
+393,28.0,Perú,Comercio,Médico/a,1784.805,802.68,,165.44,226.94,26.22,41.1,0.0,0.0,5.0,1.0,Ahorrar para retiro,No,No,Sí,False
+394,33.0,Colombia,Tecnología,Docente,1582.66,184.02,1710.87,360.73,221.59,203.23,148.49,83.36,98.93,5.0,4.0,Iniciar negocio,No,No,Sí,False
+395,35.0,Perú,Finanzas,Analista,1599.64,765.38,5989.17,458.3,152.53,91.69,138.08,42.72,55.02,6.0,2.0,Iniciar negocio,Sí,Sí,Sí,False
+396,38.0,Argentina,Gobierno,Médico/a,1667.05,274.68,,554.09,208.16,133.54,118.26,26.66,0.0,6.0,5.0,Fondo de emergencia,Sí,Sí,No,False
+397,22.0,Brasil,Tecnología,Diseñador/a,1020.63,264.89,,185.19,150.0,82.25,7.97,0.0,48.9,7.0,3.0,Comprar casa,No,Sí,No,False
+398,25.0,México,Salud,Docente,2205.69,214.48,21866.47,577.7,363.65,192.55,79.22,88.77,51.08,6.0,2.0,Pagar deudas,Sí,No,Sí,False
+399,27.0,México,Tecnología,Docente,1784.805,251.52,,608.46,358.36,156.19,151.36,142.38,173.01,6.0,1.0,Comprar casa,Sí,Sí,Sí,False
+400,27.0,Chile,Salud,Emprendedor/a,753.92,255.59,,54.72,153.68,72.9,0.0,0.0,44.77,8.0,4.0,Pagar deudas,Sí,Sí,No,False
+401,40.0,Brasil,Gobierno,Emprendedor/a,2289.44,-677.84,,636.12,304.72,176.4,128.34,265.71,78.26,5.0,3.0,Iniciar negocio,No,Sí,Sí,True
+402,36.0,México,Tecnología,Médico/a,3236.88,-550.62,,985.32,505.96,195.67,206.38,214.99,133.9,4.0,4.0,Viajar,No,Sí,Sí,True
+403,28.0,Perú,Finanzas,Contador/a,1920.37,32.73,,528.17,235.49,154.01,69.72,174.28,20.44,6.0,4.0,Iniciar negocio,Sí,Sí,Sí,False
+404,40.0,Brasil,Salud,Gerente,1563.87,255.81,3246.76,436.6,197.4,81.09,52.86,125.91,34.22,6.0,0.0,Iniciar negocio,No,No,No,False
+405,31.0,Argentina,Comercio,Gerente,1700.6,526.04,,507.79,200.03,66.67,98.27,196.2,125.68,6.0,1.0,Fondo de emergencia,Sí,No,No,False
+406,31.0,Brasil,Gobierno,Emprendedor/a,2230.68,439.23,6124.89,590.51,263.3,183.93,153.99,64.31,200.81,7.0,6.0,Fondo de emergencia,No,Sí,Sí,False
+407,30.0,Perú,Tecnología,Analista,588.53,96.3,3157.06,259.49,152.13,66.6,77.77,0.0,58.48,5.0,3.0,Viajar,No,No,Sí,False
+408,24.0,Colombia,Salud,Contador/a,1915.07,657.62,,746.84,328.58,174.27,139.19,68.99,92.07,8.0,3.0,Fondo de emergencia,Sí,No,No,False
+409,39.0,Brasil,Manufactura,Docente,1784.805,662.08,,402.28,287.6,144.82,94.55,109.83,59.06,7.0,7.0,Comprar casa,Sí,Sí,No,False
+410,22.0,Perú,Tecnología,Ingeniero/a,3093.48,323.62,,986.27,466.38,170.17,155.76,163.77,116.41,6.0,1.0,Iniciar negocio,No,No,Sí,False
+411,25.0,México,Comercio,Docente,1678.08,635.06,363.03,474.67,298.32,79.81,57.85,100.43,166.29,7.0,5.0,Viajar,Sí,No,Sí,False
+412,26.0,Chile,Finanzas,Diseñador/a,2967.52,255.59,,934.11,339.45,316.34,157.62,227.63,140.83,6.0,1.0,Fondo de emergencia,No,Sí,No,False
+413,27.0,Chile,Salud,Diseñador/a,1027.38,25.41,1442.21,496.11,205.89,40.3,78.04,74.29,135.99,3.0,2.0,Viajar,No,No,Sí,False
+414,24.0,Perú,Gobierno,Contador/a,1784.805,529.13,,724.36,342.29,201.32,146.13,158.49,166.29,7.0,4.0,Ahorrar para retiro,Sí,Sí,Sí,False
+415,22.0,Perú,Educación,Ingeniero/a,2023.58,294.25,3866.64,394.26,341.16,134.41,37.42,44.81,31.55,7.0,1.0,Iniciar negocio,No,No,No,False
+416,34.0,Argentina,Gobierno,Analista,1191.67,255.59,,411.98,201.55,98.52,40.07,0.0,32.95,7.0,1.0,Fondo de emergencia,Sí,No,Sí,False
+417,40.0,Colombia,Educación,Gerente,1924.18,839.18,4828.62,725.2,229.4,128.6,163.63,193.06,69.45,7.0,4.0,Comprar casa,No,Sí,Sí,False
+418,24.0,Colombia,Tecnología,Contador/a,2648.76,-730.35,4606.94,768.04,307.43,234.36,162.09,138.49,129.24,7.0,5.0,Comprar casa,Sí,No,No,True
+419,27.0,México,Manufactura,Ingeniero/a,1784.805,-317.07,,591.48,193.28,131.34,37.72,41.27,76.25,4.0,2.0,Viajar,No,Sí,Sí,True
+420,31.0,Chile,Educación,Diseñador/a,615.63,-224.83,7656.54,101.88,126.24,31.32,131.17,0.0,150.63,4.0,1.0,Viajar,Sí,Sí,Sí,True
+421,39.0,Brasil,Finanzas,Diseñador/a,1787.71,255.59,5051.14,358.05,309.56,101.01,106.1,50.44,46.3,4.0,3.0,Viajar,No,No,No,False
+422,35.0,México,Tecnología,Contador/a,1168.3,148.16,2261.35,367.43,93.17,104.17,85.47,15.88,67.57,3.0,5.0,Comprar casa,Sí,Sí,Sí,False
+423,36.0,Perú,Educación,Diseñador/a,1560.36,-352.93,,257.33,175.19,76.32,109.6,1.03,102.68,7.0,2.0,Viajar,No,Sí,No,True
+424,33.0,Chile,Educación,Ingeniero/a,1742.89,-144.06,,494.09,218.04,156.53,89.87,0.0,87.08,7.0,3.0,Viajar,Sí,No,No,True
+425,31.0,Colombia,Manufactura,Contador/a,606.04,-94.34,2085.04,336.23,69.47,153.54,7.26,18.6,34.71,6.0,5.0,Fondo de emergencia,No,Sí,No,True
+426,25.0,Colombia,Tecnología,Médico/a,669.04,1232.97,5558.17,50.0,30.0,107.53,125.01,0.0,0.0,7.0,1.0,Pagar deudas,Sí,No,No,False
+427,38.0,Colombia,Salud,Contador/a,1784.805,970.7,,487.7,235.29,199.73,168.38,173.3,111.13,10.0,2.0,Pagar deudas,Sí,Sí,Sí,False
+428,37.0,Perú,Comercio,Diseñador/a,1434.1,85.3,,306.39,165.8,111.3,118.92,89.29,92.16,5.0,0.0,Comprar casa,Sí,No,No,False
+429,22.0,Colombia,Comercio,Gerente,300.0,104.57,4372.32,82.4,50.18,10.0,41.05,30.92,28.1,5.0,3.0,Viajar,No,Sí,Sí,False
+430,35.0,Perú,Gobierno,Analista,2349.39,-209.68,,660.93,281.57,135.06,100.83,72.88,140.28,7.0,3.0,Viajar,Sí,Sí,Sí,True
+431,23.0,Argentina,Tecnología,Analista,1990.66,-513.25,6227.48,765.09,291.65,210.56,170.54,92.27,156.04,5.0,7.0,Ahorrar para retiro,No,No,Sí,True
+432,36.0,México,Tecnología,Gerente,1300.29,203.25,,504.61,258.56,72.43,44.29,86.67,102.49,9.0,4.0,Iniciar negocio,No,No,No,False
+433,37.0,México,Educación,Contador/a,878.22,-149.14,4076.89,322.9,53.63,42.29,64.02,86.88,46.76,6.0,7.0,Fondo de emergencia,Sí,Sí,No,True
+434,24.0,Argentina,Salud,Gerente,2385.07,255.59,,733.0,345.37,184.18,77.53,113.62,72.38,5.0,5.0,Ahorrar para retiro,No,No,No,False
+435,30.0,Argentina,Tecnología,Emprendedor/a,2044.55,-390.08,,660.55,368.17,121.08,41.04,166.97,78.23,4.0,4.0,Viajar,No,No,No,True
+436,24.0,Perú,Tecnología,Docente,3467.82,-54.79,4491.04,936.91,495.08,228.35,220.8,173.87,164.61,3.0,3.0,Iniciar negocio,Sí,Sí,Sí,True
+437,32.0,Argentina,Tecnología,Ingeniero/a,2094.13,309.45,,731.1,279.7,165.51,93.28,152.28,114.8,6.0,3.0,Comprar casa,No,Sí,No,False
+438,39.0,México,Finanzas,Contador/a,2071.39,396.48,2083.72,487.97,380.52,130.05,44.72,74.18,84.44,8.0,2.0,Ahorrar para retiro,No,Sí,No,False
+439,23.0,Colombia,Manufactura,Contador/a,1683.15,416.99,5022.84,605.19,234.1,105.01,122.61,0.0,46.73,7.0,5.0,Pagar deudas,Sí,No,Sí,False
+440,29.0,Chile,Tecnología,Ingeniero/a,2371.74,-278.2,,853.86,422.03,158.49,227.11,134.69,71.06,5.0,0.0,Comprar casa,No,Sí,Sí,True
+441,40.0,Argentina,Tecnología,Gerente,2237.56,591.87,,696.57,361.37,199.9,189.84,155.4,45.83,5.0,4.0,Pagar deudas,Sí,No,Sí,False
+442,27.0,Perú,Finanzas,Médico/a,2676.21,-70.08,20404.65,781.72,380.86,204.81,150.28,168.33,124.41,6.0,4.0,Comprar casa,Sí,No,No,True
+443,24.0,Brasil,Comercio,Diseñador/a,1435.07,503.14,2249.22,478.56,244.04,107.66,86.46,97.08,12.97,8.0,1.0,Fondo de emergencia,No,Sí,Sí,False
+444,31.0,Argentina,Gobierno,Gerente,1495.21,245.74,,105.18,243.51,143.49,125.22,53.85,34.74,7.0,3.0,Viajar,Sí,Sí,No,False
+445,31.0,Chile,Salud,Analista,1464.63,-300.55,3097.82,475.66,280.95,111.49,132.76,24.83,57.48,5.0,1.0,Ahorrar para retiro,Sí,No,No,True
+446,34.0,Perú,Tecnología,Ingeniero/a,2353.56,123.52,3965.04,692.47,320.13,177.15,127.47,150.78,64.24,5.0,4.0,Iniciar negocio,Sí,No,Sí,False
+447,27.0,Colombia,Tecnología,Diseñador/a,2848.86,396.15,,848.58,429.8,246.73,172.3,168.03,157.63,8.0,5.0,Comprar casa,No,Sí,Sí,False
+448,40.0,Chile,Comercio,Médico/a,1478.81,495.19,4933.32,528.43,218.13,145.03,100.75,40.29,103.55,2.0,4.0,Viajar,No,No,Sí,False
+449,31.0,Colombia,Salud,Emprendedor/a,1502.66,255.59,,441.83,267.65,114.33,112.31,141.7,53.16,7.0,4.0,Iniciar negocio,No,Sí,Sí,False
+450,27.0,Chile,Tecnología,Docente,2019.85,862.71,,469.13,241.47,164.81,115.87,48.02,83.51,10.0,3.0,Iniciar negocio,Sí,Sí,Sí,False
+451,40.0,Perú,Comercio,Médico/a,1627.97,653.0,2699.9,471.42,305.21,98.97,92.87,46.39,102.9,5.0,1.0,Ahorrar para retiro,Sí,Sí,No,False
+452,39.0,México,Salud,Docente,1784.805,147.34,,748.04,397.95,162.89,203.18,221.51,94.76,6.0,4.0,Viajar,Sí,No,Sí,False
+453,31.0,Colombia,Finanzas,Docente,300.0,550.05,,103.79,30.0,54.77,66.38,67.11,0.0,6.0,0.0,Iniciar negocio,Sí,No,No,False
+454,31.0,México,Salud,Gerente,1221.31,1023.52,,385.82,255.69,115.5,92.38,39.58,108.93,7.0,2.0,Iniciar negocio,No,No,No,False
+455,31.0,México,Tecnología,Ingeniero/a,1252.31,1034.19,,500.42,321.89,118.4,143.9,79.86,97.98,10.0,2.0,Ahorrar para retiro,Sí,No,No,False
+456,32.0,México,Gobierno,Gerente,300.0,-241.2,,50.0,105.11,35.23,2.54,24.29,39.06,6.0,3.0,Fondo de emergencia,No,Sí,No,True
+457,24.0,Perú,Manufactura,Médico/a,1125.45,-120.61,,358.72,254.44,91.88,132.45,0.0,93.3,5.0,4.0,Ahorrar para retiro,Sí,Sí,Sí,True
+458,34.0,Brasil,Tecnología,Contador/a,1159.39,255.59,5919.99,502.61,179.03,120.61,91.26,3.58,0.0,9.0,2.0,Pagar deudas,Sí,No,No,False
+459,37.0,Argentina,Manufactura,Médico/a,1659.23,-173.31,,289.62,149.19,170.14,230.39,79.91,137.11,5.0,4.0,Ahorrar para retiro,No,Sí,No,True
+460,24.0,Brasil,Tecnología,Ingeniero/a,2579.08,-279.02,,795.28,276.21,242.78,107.05,107.56,144.64,10.0,1.0,Comprar casa,No,No,Sí,True
+461,35.0,Perú,Salud,Analista,1628.46,55.52,695.52,418.29,259.57,126.25,70.13,96.25,121.85,6.0,4.0,Ahorrar para retiro,Sí,No,Sí,False
+462,24.0,Perú,Manufactura,Diseñador/a,1078.43,418.09,,279.04,126.25,141.75,81.46,121.69,69.41,7.0,1.0,Comprar casa,Sí,Sí,No,False
+463,36.0,Perú,Tecnología,Diseñador/a,1760.13,255.59,14609.99,419.46,209.14,149.95,121.5,68.71,89.96,3.0,3.0,Iniciar negocio,Sí,No,No,False
+464,29.0,Colombia,Manufactura,Emprendedor/a,2534.42,-10.23,6976.94,739.98,376.4,228.05,230.07,63.26,115.71,5.0,3.0,Viajar,No,No,Sí,True
+465,31.0,Chile,Tecnología,Gerente,1116.83,-19.68,,556.0,204.46,100.63,40.27,75.33,70.53,7.0,3.0,Pagar deudas,No,Sí,No,True
+466,40.0,Chile,Manufactura,Docente,1162.6,-34.93,4750.36,197.05,87.22,102.89,105.95,38.53,45.66,3.0,4.0,Viajar,No,No,Sí,True
+467,25.0,Chile,Salud,Docente,2190.98,-101.8,,516.94,301.71,145.85,177.96,100.19,144.26,2.0,6.0,Viajar,No,Sí,No,True
+468,33.0,Perú,Tecnología,Gerente,1644.92,1162.65,3510.14,337.24,337.33,159.65,126.88,64.74,18.79,8.0,5.0,Ahorrar para retiro,No,Sí,No,False
+469,25.0,México,Manufactura,Emprendedor/a,2253.24,369.0,,883.26,273.47,294.07,96.75,247.17,91.0,8.0,4.0,Ahorrar para retiro,Sí,No,Sí,False
+470,39.0,Perú,Finanzas,Analista,1790.45,604.7,,481.65,320.75,128.24,163.74,0.0,171.32,7.0,0.0,Fondo de emergencia,Sí,No,No,False
+471,36.0,Perú,Gobierno,Ingeniero/a,2291.16,54.37,,684.27,314.59,186.13,186.64,91.26,89.51,5.0,4.0,Comprar casa,No,Sí,Sí,False
+472,37.0,México,Comercio,Docente,1075.45,175.62,2861.02,274.3,194.07,68.19,88.51,53.55,44.23,6.0,2.0,Fondo de emergencia,Sí,No,No,False
+473,30.0,Argentina,Tecnología,Docente,1791.54,-35.42,,424.13,334.57,123.8,115.67,42.71,54.27,6.0,4.0,Fondo de emergencia,Sí,No,No,True
+474,30.0,Brasil,Educación,Diseñador/a,1652.52,-810.68,7273.67,467.54,292.35,193.98,108.2,136.62,96.06,4.0,1.0,Ahorrar para retiro,No,No,No,True
+475,34.0,México,Finanzas,Médico/a,948.88,-301.2,9880.51,579.65,196.88,48.99,53.78,96.24,17.99,2.0,4.0,Ahorrar para retiro,No,No,Sí,True
+476,36.0,México,Educación,Analista,705.57,-474.25,,378.72,36.74,37.48,67.97,32.41,27.85,6.0,3.0,Ahorrar para retiro,Sí,Sí,Sí,True
+477,38.0,Perú,Educación,Diseñador/a,2280.02,-649.91,,581.65,408.82,118.9,138.05,97.76,147.96,5.0,2.0,Viajar,No,No,No,True
+478,22.0,Colombia,Finanzas,Analista,1554.33,-228.14,,544.01,181.99,94.04,59.32,71.0,49.77,7.0,6.0,Ahorrar para retiro,No,Sí,No,True
+479,34.0,Perú,Educación,Analista,1084.4,779.98,4473.0,225.54,178.23,18.42,23.12,47.93,85.76,8.0,2.0,Iniciar negocio,Sí,Sí,Sí,False
+480,31.0,Brasil,Finanzas,Docente,1732.67,232.23,4450.42,306.64,275.4,163.89,73.88,81.93,119.52,7.0,3.0,Pagar deudas,Sí,Sí,No,False
+481,27.0,Argentina,Comercio,Docente,2589.61,766.23,,899.22,417.55,319.16,164.26,118.2,171.68,8.0,3.0,Fondo de emergencia,No,Sí,No,False
+482,37.0,Argentina,Gobierno,Docente,300.0,414.39,,229.21,65.22,10.0,16.92,30.15,20.62,8.0,3.0,Fondo de emergencia,Sí,No,No,False
+483,26.0,Argentina,Tecnología,Médico/a,752.35,563.02,,351.23,62.22,10.0,53.75,82.81,167.27,4.0,1.0,Pagar deudas,No,No,Sí,False
+484,31.0,Argentina,Manufactura,Ingeniero/a,1153.98,-110.36,,289.81,92.1,128.32,89.27,0.0,99.88,3.0,3.0,Viajar,Sí,No,Sí,True
+485,30.0,Argentina,Comercio,Contador/a,2822.83,459.58,1240.44,826.84,475.77,196.75,144.28,78.1,154.14,6.0,5.0,Comprar casa,Sí,Sí,Sí,False
+486,26.0,Chile,Tecnología,Ingeniero/a,1997.81,541.49,1840.34,689.31,310.82,211.8,178.5,0.0,64.85,7.0,3.0,Comprar casa,Sí,No,Sí,False
+487,28.0,Brasil,Manufactura,Emprendedor/a,2337.12,255.59,,748.12,419.53,175.69,129.52,168.84,112.97,6.0,3.0,Viajar,Sí,Sí,Sí,False
+488,32.0,Brasil,Gobierno,Docente,1001.89,473.82,1879.88,253.33,147.6,54.88,42.78,65.11,107.15,7.0,4.0,Pagar deudas,No,Sí,Sí,False
+489,36.0,Brasil,Tecnología,Médico/a,1016.32,476.48,,110.61,68.14,74.19,80.27,81.13,119.2,8.0,3.0,Pagar deudas,Sí,Sí,Sí,False
+490,33.0,México,Educación,Contador/a,1784.805,30.18,1093.06,647.71,374.99,199.39,53.35,19.9,164.81,7.0,4.0,Comprar casa,Sí,No,Sí,False
+491,39.0,Colombia,Comercio,Gerente,1840.79,-199.11,5966.07,681.72,253.9,138.17,78.83,199.14,123.45,4.0,1.0,Fondo de emergencia,Sí,Sí,No,True
+492,38.0,Perú,Finanzas,Docente,2184.12,255.59,,511.53,348.14,154.86,170.29,72.67,58.98,5.0,1.0,Pagar deudas,No,No,Sí,False
+493,36.0,Chile,Tecnología,Médico/a,1668.63,255.59,,577.24,211.45,125.54,30.62,93.52,102.92,5.0,2.0,Pagar deudas,No,No,Sí,False
+494,33.0,Argentina,Finanzas,Analista,1994.7,255.59,,638.2,397.86,108.7,164.38,151.0,50.08,6.0,5.0,Pagar deudas,No,No,No,False
+495,27.0,Colombia,Finanzas,Médico/a,1910.68,-67.01,,663.22,234.01,168.74,175.09,36.32,36.04,6.0,2.0,Pagar deudas,No,Sí,No,True
+496,29.0,México,Manufactura,Docente,1784.805,260.63,,807.97,331.42,116.09,125.89,84.44,126.79,1.0,3.0,Viajar,No,No,No,False
+497,24.0,Colombia,Finanzas,Ingeniero/a,1784.805,255.59,5332.65,626.14,361.18,171.43,153.57,129.0,139.17,10.0,2.0,Iniciar negocio,No,Sí,Sí,False
+498,29.0,Argentina,Finanzas,Emprendedor/a,666.09,497.28,8738.93,50.0,34.38,83.66,84.73,204.75,69.44,8.0,3.0,Viajar,No,No,Sí,False
+499,39.0,Argentina,Gobierno,Analista,300.0,870.75,239.98,50.0,64.83,36.12,0.0,33.07,34.89,7.0,3.0,Comprar casa,Sí,No,No,False
+500,30.0,Chile,Educación,Contador/a,2501.22,255.59,4628.83,857.06,471.9,223.71,184.78,221.44,146.32,10.0,0.0,Fondo de emergencia,No,Sí,No,False
