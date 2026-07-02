@@ -114,6 +114,7 @@ Country-level income and expenses are tightly clustered; savings rates span **10
 
 **Insight:** México shows the highest savings rate (**15.71%**) and Perú the lowest (**10.65%**), but
 the spread is narrow — an artefact of the generator, not a real economic signal.
+![Income Distribution by Country](charts/01_income_by_country.png)
 
 ### 4.2 Savings Patterns by Age Group
 Mean monthly savings are essentially flat across age, dipping slightly in the oldest band.
@@ -127,6 +128,7 @@ Mean monthly savings are essentially flat across age, dipping slightly in the ol
 
 **Insight:** the identical median (**$255.59**) across every group is a direct consequence of
 median-imputing 75 missing savings values; it is not a genuine pattern.
+![Savings Patterns by Age Bins](charts/02_savings_by_age.png)
 
 ### 4.3 Industry Benchmarks
 Comercio leads on both mean savings and share of positive savers.
@@ -143,6 +145,7 @@ Comercio leads on both mean savings and share of positive savers.
 
 **Insight:** on a savings-rate basis (mean savings ÷ mean income), Comercio leads at **16.8%** and
 Finanzas trails at **12.6%**.
+![Savings Rate by Industry](charts/04_savings_rate_by_industry.png)
 
 ### 4.4 Financial Satisfaction & AI-Tool Usage
 Satisfaction is flat across usage bands; no dose-response relationship appears.
@@ -155,6 +158,7 @@ Satisfaction is flat across usage bands; no dose-response relationship appears.
 | High (9+) | 0 | — | — |
 
 **Insight:** heavier AI use is **not** associated with higher financial satisfaction in this data.
+![Financial Satisfaction by AI Usage](charts/03_satisfaction_by_ai_usage.png)
 
 ### 4.5 Debt Analysis (debt holders only)
 Among the **49.6%** who hold debt, total debt runs **2.4×–3.3× monthly income**.
@@ -170,6 +174,7 @@ Among the **49.6%** who hold debt, total debt runs **2.4×–3.3× monthly incom
 
 **Insight:** México and Brasil carry the heaviest debt burdens relative to income. *(Based on the
 ~55% of records with non-missing debt values.)*
+![Debt to Income Ratio by Country](charts/05_debt_to_income_by_country.png)
 
 ### 4.6 Correlation Matrix (Pearson)
 Only income–expenses is strongly correlated; all other relationships are negligible.
